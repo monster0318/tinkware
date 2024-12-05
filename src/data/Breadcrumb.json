@@ -1,0 +1,226 @@
+[
+    {
+        "id": "1",
+        "slug": "/service",
+        "name": "SOLUTIONS",
+        "pageTitle": "Services & Solutions.",
+        "section_down_scroll": "#service-section"
+    },
+    {
+        "id": "2",
+        "name": "SOLUTIONS",
+        "slug": "/service/service2",
+        "pageTitle": "Services & Solutions.",
+        "section_down_scroll": "#service-section"
+    },
+    {
+        "id": "3",
+        "name": "SOLUTIONS",
+        "slug": "/service/service3",
+        "pageTitle": "Services & Solutions.",
+        "section_down_scroll": "#service-section"
+    },
+    {
+        "id": "4",
+        "name": "SOLUTIONS",
+        "slug": "/service/service4",
+        "pageTitle": "Services & Solutions.",
+        "section_down_scroll": "#service-section"
+    },
+    {
+        "id": "5",
+        "name": "SERVICE DETAILS",
+        "slug": "/service/service-details",
+        "pageTitle": "We are a IT service Company working with talents on delivering unique ideas.",
+        "section_down_scroll": "#service-section"
+    },
+    {
+        "id": "6",
+        "name": "CASE STUDY",
+        "slug": "/case-study",
+        "pageTitle": "Success In The Field.",
+        "section_down_scroll": "#case-study-card-section"
+    },
+    {
+        "id": "7",
+        "name": "CASE STUDY",
+        "slug": "/case-study/case-study2",
+        "pageTitle": "Success In The Field.",
+        "section_down_scroll": "#case-study-card-section"
+    },
+    {
+        "id": "8",
+        "name": "CASE STUDY",
+        "slug": "/case-study/case-study-details",
+        "pageTitle": "Navigating Growth A Startup Agency Success Story. on Creative & unique ideas.",
+        "section_down_scroll": "#case-study-card-section"
+    },
+    {
+        "id": "9",
+        "name": "BLOG",
+        "slug": "/blog",
+        "pageTitle": "Latest News Blog & Article.",
+        "section_down_scroll": "#blog-grid"
+    },
+    {
+        "id": "9",
+        "name": "BLOG",
+        "slug": "/blog/blog-grid-sidebar",
+        "pageTitle": "Latest News Blog & Article.",
+        "section_down_scroll": "#blog-grid"
+    },
+    {
+        "id": "10",
+        "name": "BLOG",
+        "slug": "/blog/blog-list",
+        "pageTitle": "Latest News Blog & Article.",
+        "section_down_scroll": "#blog-grid"
+    },
+    {
+        "id": "11",
+        "name": "BLOG",
+        "slug": "/blog/blog-standard",
+        "pageTitle": "Latest News Blog & Article.",
+        "section_down_scroll": "#blog-grid"
+    },
+    {
+        "id": "12",
+        "name": "BLOG DETAILS",
+        "slug": "/blog/blog-details",
+        "pageTitle": "Decoding The Cloud And Deep Dive Told That Creative Designs For Work.",
+        "section_down_scroll": "#blog-details"
+    },
+    {
+        "id": "11",
+        "name": "BLOG DETAILS",
+        "slug": "/blog/blog-details2",
+        "pageTitle": "Decoding The Cloud And Deep Dive Told That Creative Designs For Work.",
+        "section_down_scroll": "#blog-details"
+    },
+    {
+        "id": "12",
+        "name": "ABOUT US",
+        "slug": "/about",
+        "pageTitle": "We are a IT service Company working with talents on delivering unique ideas.",
+        "section_down_scroll": "#about-section"
+    },
+    {
+        "id": "13",
+        "name": "industry",
+        "slug": "/industry",
+        "pageTitle": "Challenge In Every Industry.",
+        "section_down_scroll": "#industry-card-section"
+    },
+    {
+        "id": "14",
+        "name": "portfolio",
+        "slug": "/portfolio",
+        "pageTitle": "Showcase Our Portfolio.",
+        "section_down_scroll": "#portfolio-grid"
+    },
+    {
+        "id": "15",
+        "name": "portfolio",
+        "slug": "/portfolio/portfolio-masonary",
+        "pageTitle": "Showcase Our Portfolio.",
+        "section_down_scroll": "#portfolio-grid"
+    },
+    {
+        "id": "16",
+        "name": "portfolio",
+        "slug": "/portfolio/portfolio-info-flow",
+        "pageTitle": "Showcase Our Portfolio.",
+        "section_down_scroll": "#portfolio-grid"
+    },
+    {
+        "id": "17",
+        "name": "portfolio",
+        "slug": "/portfolio/portfolio-list",
+        "pageTitle": "Showcase Our Portfolio.",
+        "section_down_scroll": "#portfolio-grid"
+    },
+    {
+        "id": "17",
+        "name": "portfolio",
+        "slug": "/portfolio/portfolio-details",
+        "pageTitle": "Showcase Our Portfolio.",
+        "section_down_scroll": "#portfolio-grid"
+    },
+    {
+        "id": "18",
+        "name": "OUR TEAM",
+        "slug": "/team",
+        "pageTitle": "Our Creative Team.",
+        "section_down_scroll": "#team-section"
+    },
+    {
+        "id": "19",
+        "name": "OUR TEAM",
+        "slug": "/team2",
+        "pageTitle": "Our Creative Team.",
+        "section_down_scroll": "#team-section"
+    },
+    {
+        "id": "20",
+        "name": "FEATURES",
+        "slug": "/features",
+        "pageTitle": "Deep Dive Connective Power.",
+        "section_down_scroll": "#project-section"
+    },
+    {
+        "id": "21",
+        "name": "pricing-plan",
+        "slug": "/pricing-plan",
+        "pageTitle": "Our Flexible Pricing Plan.",
+        "section_down_scroll": "#pricing-plan-section"
+    },
+    {
+        "id": "22",
+        "name": "faq",
+        "slug": "/faq",
+        "pageTitle": "Frequently Asked Questions.",
+        "section_down_scroll": "#faq-section"
+    },
+    {
+        "id": "23",
+        "name": "shop",
+        "slug": "/shop",
+        "pageTitle": "Explore Our Shop.",
+        "section_down_scroll": "#shop"
+    },
+    {
+        "id": "24",
+        "name": "product-details",
+        "slug": "/product-details",
+        "pageTitle": "Decoding The Cloud And Deep Dive Told That Creative Designs For Work.",
+        "section_down_scroll": "#shop"
+    },
+    {
+        "id": "25",
+        "name": "cart",
+        "slug": "/cart",
+        "pageTitle": "Instant Purchase.",
+        "section_down_scroll": "#shop"
+    },
+    {
+        "id": "26",
+        "name": "checkout",
+        "slug": "/checkout",
+        "pageTitle": "Secure Checkout.",
+        "section_down_scroll": "#shop"
+    },
+    {
+        "id": "27",
+        "name": "CONTACT US",
+        "slug": "/contact",
+        "pageTitle": "Let’s Connecting With Zenfy.",
+        "section_down_scroll": "#shop"
+    },
+    {
+        "id": "28",
+        "name": "ABOUT US",
+        "slug": "/about",
+        "pageTitle": "We are a IT service Company working with talents on delivering unique ideas.",
+        "section_down_scroll": "#about-section"
+    }
+]
