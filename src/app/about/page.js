@@ -1014,12 +1014,12 @@ const Aboutpage = () => {
                   </div>
                   <div className="logo">
                     <img
-                      src="assets/img/footer-logo.svg"
+                      src="assets/img/footer-logo.png"
                       alt=""
                       className="light"
                     />
                     <img
-                      src="assets/img/footer-logo-dark.svg"
+                      src="assets/img/footer-logo-dark.png"
                       alt=""
                       className="dark"
                     />

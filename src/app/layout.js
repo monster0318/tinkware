@@ -39,11 +39,11 @@ export default function RootLayout({ children }) {
       <head>
         <link
           rel="icon"
-          href="/public/assets/img/sm-logo.svg"
+          href="/public/assets/img/sm-logo.png"
           type="image/x-icon"
           sizes="16x16"
         />
-        <title>Zenfy - Software, SaaS &amp; Digital Agency Template</title>
+        <title>InnoTink - IT Recruitment And Software Development Agency</title>
       </head>
       <body>
         <ScrollProgress />
