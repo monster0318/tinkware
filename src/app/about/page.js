@@ -777,7 +777,7 @@ const Aboutpage = () => {
                       </g>
                     </svg>
                   </span>
-                  <h2>Connect with Zenfy</h2>
+                  <h2>Connect with {process.env.NEXT_PUBLIC_COMPANY_NAME}</h2>
                   <p>
                     Ready to take the first step towards unlocking
                     opportunities, realizing goals, and embracing innovation?
@@ -805,7 +805,7 @@ const Aboutpage = () => {
                     <div className="content">
                       <span>To More Inquiry</span>
                       <h6>
-                        <a href="tel:+990737621432">+990-737 621 432</a>
+                        <a href={`tel:${process.env.NEXT_PUBLIC_PHONE}`}>{process.env.NEXT_PUBLIC_CONTACT_PHONE}</a>
                       </h6>
                     </div>
                   </div>
@@ -827,7 +827,7 @@ const Aboutpage = () => {
                     <div className="content">
                       <span>To Send Mail</span>
                       <h6>
-                        <a href="mailto:info@example.com">info@gmail.com</a>
+                        <a href={`mailto:${process.env.NEXT_PUBLIC_CONTACT_EMAIL}`}>{process.env.NEXT_PUBLIC_CONTACT_EMAIL}</a>
                       </h6>
                     </div>
                   </div>
@@ -840,36 +840,21 @@ const Aboutpage = () => {
                   <h6>Social Just You Connected Us!</h6>
                   <ul className="social-list">
                     <li>
-                      <a href="https://www.linkedin.com/">
+                      <a href={process.env.NEXT_PUBLIC_LINK_LINKEDIN}>
                         <i className="bi bi-linkedin" />
                         <span>LinkedIn</span>
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.facebook.com/">
+                      <a href={process.env.NEXT_PUBLIC_LINK_FACEBOOK}>
                         <i className="bi bi-facebook" />
                         <span>Facebook</span>
                       </a>
                     </li>
                     <li>
-                      <a href="https://twitter.com/">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width={18}
-                          height={18}
-                          fill="currentColor"
-                          className="bi bi-twitter-x"
-                          viewBox="0 0 16 16"
-                        >
-                          <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z" />
-                        </svg>
+                      <a href={process.env.NEXT_PUBLIC_LINK_TWITTER}>
+                        <i className="bi bi-twitter-x" />
                         <span>Twitter</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.instagram.com/">
-                        <i className="bi bi-instagram" />
-                        <span>Instagram</span>
                       </a>
                     </li>
                   </ul>
@@ -1059,7 +1044,7 @@ const Aboutpage = () => {
                   </div>
                   <div className="content">
                     <p>
-                      Welcome to Zenfy, where innovation meets our passion in a
+                      Welcome to {process.env.NEXT_PUBLIC_COMPANY_NAME}, where innovation meets our passion in a
                       journey that started with a simple idea and a shared
                       dream.
                     </p>
@@ -1160,7 +1145,7 @@ const Aboutpage = () => {
               <div className="content">
                 <span>Call Any Time</span>
                 <h6>
-                  <a href="tel:2-965-871-8617">2-965-871-8617</a>
+                  <a href={`tel:${process.env.NEXT_PUBLIC_PHONE}`}>{process.env.NEXT_PUBLIC_CONTACT_PHONE}</a>
                 </h6>
               </div>
             </div>
@@ -1182,7 +1167,7 @@ const Aboutpage = () => {
                 <span>Address</span>
                 <h6>
                   <a href="https://www.google.com/maps/place/Egens+Lab/@23.8340712,90.3631117,17z/data=!3m1!4b1!4m6!3m5!1s0x3755c14c8682a473:0xa6c74743d52adb88!8m2!3d23.8340663!4d90.3656866!16s%2Fg%2F11rs9vlwsk?entry=ttu">
-                    Dhaka, Bangladesh
+                    {process.env.NEXT_PUBLIC_CONTACT_SHORT_LOCATION}
                   </a>
                 </h6>
               </div>
@@ -1207,7 +1192,7 @@ const Aboutpage = () => {
               <div className="content">
                 <span>Say Hello</span>
                 <h6>
-                  <a href="mailto:info@example.com">info@example.com</a>
+                  <a href={`mailto:${process.env.NEXT_PUBLIC_CONTACT_EMAIL}`}>{process.env.NEXT_PUBLIC_CONTACT_EMAIL}</a>
                 </h6>
               </div>
             </div>
@@ -1215,8 +1200,7 @@ const Aboutpage = () => {
           <div className="footer-bottom">
             <div className="copyright-area">
               <p>
-                Copyright 2024 <a href="#">Zenfy</a> | Design By{" "}
-                <a href="https://www.egenslab.com/">Egens Lab</a>
+                Copyright 2024 <a href="/">{process.env.NEXT_PUBLIC_COMPANY_NAME}</a>
               </p>
             </div>
             <div className="footer-bottom-right">

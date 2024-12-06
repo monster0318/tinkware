@@ -96,8 +96,8 @@ const Home1Testimonial = () => {
                   <h2>Happy Client Stories</h2>
                   <p>
                     These voices echo the confidence and satisfaction of clients
-                    who've witnessed firsthand the impact of our solutions. At
-                    Zenfy, our clients aren't just partners.
+                    who've witnessed firsthand the impact of our solutions. At {process.env.NEXT_PUBLIC_COMPANY_NAME},
+                    our clients aren't just partners.
                   </p>
                 </div>
                 <ul className="rating-area">

@@ -17,7 +17,7 @@ const Home5Team = () => {
               <path d="M3.7081 12.9544C3.41861 13.1128 3.09011 12.8352 3.14861 12.4808L3.7711 8.69694L1.12886 6.01223C0.882112 5.76104 1.01036 5.30186 1.34111 5.25226L5.0146 4.69548L6.6526 1.23399C6.80035 0.922003 7.2001 0.922003 7.34785 1.23399L8.98584 4.69548L12.6593 5.25226C12.9901 5.30186 13.1183 5.76104 12.8708 6.01223L10.2293 8.69694L10.8518 12.4808C10.9103 12.8352 10.5818 13.1128 10.2923 12.9544L6.9991 11.1497L3.7081 12.9544Z" />
             </svg>
           </span>
-          <h2>Get to Know Creative <span> Minds At Zenfy.</span></h2>
+          <h2>Get to Know Creative <span> Minds At {process.env.NEXT_PUBLIC_COMPANY_NAME}.</span></h2>
           <p>Feel free adapt this based on the specific managed services, features, and unique selling points your IT service company provides.</p>
         </div>
         <div className="star-btn mb-50">
@@ -54,7 +54,7 @@ const Home5Team = () => {
               </div>
               <div className="team-content text-center">
                 <h4>Cassian Coleson</h4>
-                <span>Founder at, Zenfy</span>
+                <span>Founder at, {process.env.NEXT_PUBLIC_COMPANY_NAME}</span>
               </div>
             </div>
           </div>

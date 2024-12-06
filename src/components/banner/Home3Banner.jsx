@@ -31,11 +31,11 @@ const Home3Banner = () => {
                   </svg>
                 </span>
                 <h1>
-                  Elevate Your Business with <span>Zenfy Solutions</span> in the
+                  Elevate Your Business with <span>{process.env.NEXT_PUBLIC_COMPANY_NAME} Solutions</span> in the
                   Cloud.
                 </h1>
                 <p>
-                  Welcome to Zenfy, where digital innovation meets strategic
+                  Welcome to {process.env.NEXT_PUBLIC_COMPANY_NAME}, where digital innovation meets strategic
                   excellence as a dynamic force in the realm of digital
                   marketing, we are dedicated tourat propelling businesses into
                   the spotlight of online success.

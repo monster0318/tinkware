@@ -26,7 +26,7 @@ const Home4Portfolio = () => {
                   </svg>
                   Our Project
                 </span>
-                <h2>A Showcase of Zenfy</h2>
+                <h2>A Showcase of {process.env.NEXT_PUBLIC_COMPANY_NAME}</h2>
               </div>
               <Link href="/portfolio" className="details-button">
                 View All Work

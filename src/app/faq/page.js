@@ -52,7 +52,7 @@ const FaqPage = () => {
                         aria-expanded="false"
                         aria-controls="faqcollapseTwo"
                       >
-                        02. Is Zenfy suitable for my business?
+                        02. Is {process.env.NEXT_PUBLIC_COMPANY_NAME} suitable for my business?
                       </button>
                     </h2>
                     <div
@@ -288,7 +288,7 @@ const FaqPage = () => {
                         aria-expanded="false"
                         aria-controls="faqcollapse2Two"
                       >
-                        02. Is Zenfy suitable for my business?
+                        02. Is {process.env.NEXT_PUBLIC_COMPANY_NAME} suitable for my business?
                       </button>
                     </h2>
                     <div

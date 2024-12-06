@@ -21,7 +21,7 @@ const Home2WorkProcess = () => {
                 <path d="M11 5.5L9.48449 4.43056L10.2666 2.75L8.41505 2.58495L8.25 0.733376L6.56944 1.51551L5.5 0L4.43056 1.51551L2.75 0.733376L2.58495 2.58495L0.733376 2.75L1.51551 4.43056L0 5.5L1.51551 6.56944L0.733376 8.25L2.58495 8.41505L2.75 10.2666L4.43056 9.48449L5.5 11L6.56944 9.48449L8.25 10.2666L8.41505 8.41505L10.2666 8.25L9.48449 6.56944L11 5.5Z" />
               </svg>
             </span>
-            <h2>Why Zenfy is your top-choice</h2>
+            <h2>Why {process.env.NEXT_PUBLIC_COMPANY_NAME} is your top-choice</h2>
             <p>Sed accumsan sem cursus luctus porta. amem Phasellu du enim, efficitur quis velit ac, fringilla posuere leo fusci ullamcorper id porent gone this way.</p>
           </div>
           <Link href="/contact" className="primary-btn2" data-text="Get Proposal"><span>Get Proposal</span></Link>
@@ -35,7 +35,7 @@ const Home2WorkProcess = () => {
                 <div className="col-lg-7">
                   <div className="feature-content">
                     <h3>Expertise and Specialization</h3>
-                    <p>Welcome to Zenfy, where digital innovation meets straoi
+                    <p>Welcome to {process.env.NEXT_PUBLIC_COMPANY_NAME}, where digital innovation meets straoi
                       excellence as a dynamic force in the realmo.</p>
                     <ul>
                       <li>

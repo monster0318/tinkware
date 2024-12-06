@@ -2,7 +2,7 @@ import MainLayout from "@/components/layout/MainLayout";
 import Home5Workprocess from "@/components/workProcess/Home5Workprocess";
 
 export const metadata = {
-  title: "Zenfy - Software, SaaS & Digital Agency Template",
+  title: "{process.env.NEXT_PUBLIC_COMPANY_NAME} - Software, SaaS & Digital Agency Template",
   icons: {
     icon: "/assets/img/sm-logo.svg",
   },
@@ -173,7 +173,7 @@ const ServiceDetailsPage = () => {
                           aria-expanded="false"
                           aria-controls="faqcollapseTwo"
                         >
-                          02. Is Zenfy suitable for my business?
+                          02. Is {process.env.NEXT_PUBLIC_COMPANY_NAME} suitable for my business?
                         </button>
                       </h2>
                       <div

@@ -848,7 +848,7 @@ const Header2 = () => {
                       <div className="contact">
                         <span>Phone</span>
                         <h6>
-                          <a href="#">+991 - 763 684 4563</a>
+                          <a href={`tel:${process.env.NEXT_PUBLIC_PHONE}`}>{process.env.NEXT_PUBLIC_CONTACT_PHONE}</a>
                         </h6>
                       </div>
                     </li>
@@ -866,7 +866,7 @@ const Header2 = () => {
                       <div className="contact">
                         <span>Email Now</span>
                         <h6>
-                          <a href="#">info@examplegmail.com</a>
+                          <a href={`mailto:${process.env.NEXT_PUBLIC_CONTACT_EMAIL}`}>{process.env.NEXT_PUBLIC_CONTACT_EMAIL}</a>
                         </h6>
                       </div>
                     </li>

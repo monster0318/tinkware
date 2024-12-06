@@ -54,38 +54,30 @@ const Home4Footer = () => {
                             </Link>
                           </div>
                           <h2>
-                            <a href="mailto:info@example.com">
-                              info@example.com
-                            </a>
+                            <a href={`mailto:${process.env.NEXT_PUBLIC_CONTACT_EMAIL}`}>{process.env.NEXT_PUBLIC_CONTACT_EMAIL}</a>
                           </h2>
                           {/* <div class="content">
-                                          <p>Welcome to Zenfy, where innovation meets our passion in a journey that started with a simple idea and a shared dream.</p>
+                                          <p>Welcome to {process.env.NEXT_PUBLIC_COMPANY_NAME}, where innovation meets our passion in a journey that started with a simple idea and a shared dream.</p>
                                       </div> */}
                           <div className="social-area">
                             <h6>Social Just You Connected Us!</h6>
                             <ul className="social-list">
                               <li>
-                                <a href="https://www.linkedin.com/">
+                                <a href={process.env.NEXT_PUBLIC_LINK_LINKEDIN}>
                                   <i className="bi bi-linkedin" />
                                   <span>LinkedIn</span>
                                 </a>
                               </li>
                               <li>
-                                <a href="https://www.facebook.com/">
+                                <a href={process.env.NEXT_PUBLIC_LINK_FACEBOOK}>
                                   <i className="bi bi-facebook" />
                                   <span>Facebook</span>
                                 </a>
                               </li>
                               <li>
-                                <a href="https://twitter.com/">
+                                <a href={process.env.NEXT_PUBLIC_LINK_TWITTER}>
                                   <i className="bi bi-twitter-x" />
                                   <span>Twitter</span>
-                                </a>
-                              </li>
-                              <li>
-                                <a href="https://www.instagram.com/">
-                                  <i className="bi bi-instagram" />
-                                  <span>Instagram</span>
                                 </a>
                               </li>
                             </ul>
@@ -166,7 +158,7 @@ const Home4Footer = () => {
                             <div className="author-content">
                               <div className="author-name-desig">
                                 <h6>Mr. Daniel Scoot</h6>
-                                <span>Founder / Zenfy</span>
+                                <span>Founder / {process.env.NEXT_PUBLIC_COMPANY_NAME}</span>
                               </div>
                               <p>
                                 We're dedicated to find the right solution for
@@ -187,8 +179,7 @@ const Home4Footer = () => {
                   <div className="footer-bottom">
                     <div className="copyright-area">
                       <p>
-                        Copyright 2024 <a href="#">Zenfy</a> | Design By{" "}
-                        <a href="https://www.egenslab.com/">Egens Lab</a>
+                        Copyright 2024 <a href="#">{process.env.NEXT_PUBLIC_COMPANY_NAME}</a>
                       </p>
                     </div>
                     <div className="footer-bottom-right">

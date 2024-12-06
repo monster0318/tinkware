@@ -37,7 +37,7 @@ const Home3Faq = () => {
                 </span>
                 <h2>Unveiling Knowledge Hub</h2>
                 <p>
-                  Welcome to Zenfy, where digital innovation meets strategic
+                  Welcome to {process.env.NEXT_PUBLIC_COMPANY_NAME}, where digital innovation meets strategic
                   excellence. As a dynamic force in the realm of digital
                   marketing, we are dedicated to propelling businesses into the
                   spotlight of online success.
@@ -91,7 +91,7 @@ const Home3Faq = () => {
                           aria-expanded="false"
                           aria-controls="faqcollapseTwo"
                         >
-                          02. Is Zenfy suitable for my business?
+                          02. Is {process.env.NEXT_PUBLIC_COMPANY_NAME} suitable for my business?
                         </button>
                       </h2>
                       <div
@@ -101,7 +101,7 @@ const Home3Faq = () => {
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                          Certainly, The zenfy's suitability for your business
+                          Certainly, The {process.env.NEXT_PUBLIC_COMPANY_NAME}'s suitability for your business
                           depends on its goals and alignment with your needs.
                           Evaluate how well it addresses your objectives,
                           resources, and long-term vision for success.

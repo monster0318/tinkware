@@ -53,7 +53,7 @@ const Home4award = () => {
                     Our Award Time
                   </span>
                   <h2>
-                    Celebrating Zenfy's <span>Award-Winning </span>Excellence.
+                    Celebrating {process.env.NEXT_PUBLIC_COMPANY_NAME}'s <span>Award-Winning </span>Excellence.
                   </h2>
                 </div>
                 <Link href="/about" className="details-button">

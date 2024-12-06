@@ -42,7 +42,7 @@ const CaseStudyDetails = () => {
                   into the intricacies of our design processes, strategic
                   thinking, and collaborative endeavors.{" "}
                 </p>
-                <h3>What did Zenfy do</h3>
+                <h3>What did {process.env.NEXT_PUBLIC_COMPANY_NAME} do</h3>
                 <p>
                   Urna Aenean onewaryzo eleifend vitae tellus a facilisis. Nunc
                   posuere at augue eget porta. Inei odio tellus, dignissim

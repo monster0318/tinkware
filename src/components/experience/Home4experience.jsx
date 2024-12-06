@@ -49,7 +49,7 @@ const Home4experience = () => {
                   <div className="content">
                     <h4>Discovery</h4>
                     <p>
-                      Welcome to Zenfy, where’r digital agi innovation meet
+                      Welcome to {process.env.NEXT_PUBLIC_COMPANY_NAME}, where’r digital agi innovation meet
                       strategic expensive dynamic force in the.
                     </p>
                   </div>
@@ -73,7 +73,7 @@ const Home4experience = () => {
                   <div className="content">
                     <h4>Strategy</h4>
                     <p>
-                      Welcome to Zenfy, where’r digital agi innovation meet
+                      Welcome to {process.env.NEXT_PUBLIC_COMPANY_NAME}, where’r digital agi innovation meet
                       strategic expensive dynamic force in the.
                     </p>
                   </div>
@@ -97,7 +97,7 @@ const Home4experience = () => {
                   <div className="content">
                     <h4>Development</h4>
                     <p>
-                      Welcome to Zenfy, where’r digital agi innovation meet
+                      Welcome to {process.env.NEXT_PUBLIC_COMPANY_NAME}, where’r digital agi innovation meet
                       strategic expensive dynamic force in the.
                     </p>
                   </div>

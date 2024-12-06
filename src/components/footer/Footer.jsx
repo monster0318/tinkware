@@ -122,7 +122,7 @@ const Footer = () => {
                   </div>
                   <div className="content">
                     <p>
-                      Welcome to Zenfy, where innovation meets our passion in a
+                      Welcome to {process.env.NEXT_PUBLIC_COMPANY_NAME}, where innovation meets our passion in a
                       journey that started with a simple idea and a shared
                       dream.
                     </p>
@@ -221,9 +221,9 @@ const Footer = () => {
                 </svg>
               </div>
               <div className="content">
-                <span>Call Any Time</span>
+                <span>Phone</span>
                 <h6>
-                  <a href="tel:2-965-871-8617">2-965-871-8617</a>
+                  <a href={`tel:${process.env.NEXT_PUBLIC_PHONE}`}>{process.env.NEXT_PUBLIC_CONTACT_PHONE}</a>
                 </h6>
               </div>
             </div>
@@ -244,8 +244,8 @@ const Footer = () => {
               <div className="content">
                 <span>Address</span>
                 <h6>
-                  <a href="https://www.google.com/maps/place/Egens+Lab/@23.8340712,90.3631117,17z/data=!3m1!4b1!4m6!3m5!1s0x3755c14c8682a473:0xa6c74743d52adb88!8m2!3d23.8340663!4d90.3656866!16s%2Fg%2F11rs9vlwsk?entry=ttu">
-                    Dhaka, Bangladesh
+                  <a href={process.env.NEXT_PUBLIC_MAP_LINK}>
+                    {process.env.NEXT_PUBLIC_CONTACT_SHORT_LOCATION}
                   </a>
                 </h6>
               </div>
@@ -268,9 +268,9 @@ const Footer = () => {
                 </svg>
               </div>
               <div className="content">
-                <span>Say Hello</span>
+                <span>Email</span>
                 <h6>
-                  <a href="mailto:info@example.com">info@example.com</a>
+                  <a href={`mailto:${process.env.NEXT_PUBLIC_CONTACT_EMAIL}`}>{process.env.NEXT_PUBLIC_CONTACT_EMAIL}</a>
                 </h6>
               </div>
             </div>
@@ -278,8 +278,7 @@ const Footer = () => {
           <div className="footer-bottom">
             <div className="copyright-area">
               <p>
-                Copyright 2024 <a href="#">Zenfy</a> | Design By{" "}
-                <a href="https://www.egenslab.com/">Egens Lab</a>
+                Copyright 2024 <a href="#">{process.env.NEXT_PUBLIC_COMPANY_NAME}</a>
               </p>
             </div>
             <div className="footer-bottom-right">

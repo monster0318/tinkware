@@ -34,7 +34,7 @@ const Home4About = () => {
                         <circle cx={5} cy={5} r={5} />
                       </g>
                     </svg>
-                    Unveiling Work Zenfy
+                    Unveiling Work {process.env.NEXT_PUBLIC_COMPANY_NAME}
                   </span>
                   <h2>
                     We are a Creative agency working with young talents on

@@ -51,7 +51,7 @@ const BlogListPage = () => {
                         </Link>
                       </h4>
                       <p>
-                        Welcome to Zenfy, where digital innovation meets arg
+                        Welcome to {process.env.NEXT_PUBLIC_COMPANY_NAME}, where digital innovation meets arg
                         strategic excellence. As a dynamic force in thereal on
                         digital marketing, we are dedicated.
                       </p>
@@ -114,7 +114,7 @@ const BlogListPage = () => {
                         </Link>
                       </h4>
                       <p>
-                        Welcome to Zenfy, where digital innovation meets arg
+                        Welcome to {process.env.NEXT_PUBLIC_COMPANY_NAME}, where digital innovation meets arg
                         strategic excellence. As a dynamic force in thereal on
                         digital marketing, we are dedicated.
                       </p>
@@ -177,7 +177,7 @@ const BlogListPage = () => {
                         </Link>
                       </h4>
                       <p>
-                        Welcome to Zenfy, where digital innovation meets arg
+                        Welcome to {process.env.NEXT_PUBLIC_COMPANY_NAME}, where digital innovation meets arg
                         strategic excellence. As a dynamic force in thereal on
                         digital marketing, we are dedicated.
                       </p>

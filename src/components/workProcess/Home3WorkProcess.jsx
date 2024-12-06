@@ -22,7 +22,7 @@ const Home3WorkProcess = () => {
             </svg>
           </span>
           <h2>Propel Your Productivity</h2>
-          <p>Welcome to Zenfy, where digital innovation meets strategic excellence. As a dynamic force in the realm of digital marketing, we are dedicated to propelling businesses into the spotlight of online success.</p>
+          <p>Welcome to {process.env.NEXT_PUBLIC_COMPANY_NAME}, where digital innovation meets strategic excellence. As a dynamic force in the realm of digital marketing, we are dedicated to propelling businesses into the spotlight of online success.</p>
         </div>
       </div>
     </div>
@@ -48,7 +48,7 @@ const Home3WorkProcess = () => {
           </div>
           <div className="content">
             <h4>Progress Tracking</h4>
-            <p>Welcome to Zenfy, where’r digital agi innovation meets strategic expensivt as a dynamic force in the.</p>
+            <p>Welcome to {process.env.NEXT_PUBLIC_COMPANY_NAME}, where’r digital agi innovation meets strategic expensivt as a dynamic force in the.</p>
           </div>
         </div>
       </div>
@@ -80,7 +80,7 @@ const Home3WorkProcess = () => {
           </div>
           <div className="content">
             <h4>Recurring Tasks</h4>
-            <p>Welcome to Zenfy, where’r digital agi innovation meets strategic expensivt as a dynamic force in the.</p>
+            <p>Welcome to {process.env.NEXT_PUBLIC_COMPANY_NAME}, where’r digital agi innovation meets strategic expensivt as a dynamic force in the.</p>
           </div>
         </div>
       </div>
@@ -100,7 +100,7 @@ const Home3WorkProcess = () => {
           </div>
           <div className="content">
             <h4>User Permissions</h4>
-            <p>Welcome to Zenfy, where’r digital agi innovation meets strategic expensivt as a dynamic force in the.</p>
+            <p>Welcome to {process.env.NEXT_PUBLIC_COMPANY_NAME}, where’r digital agi innovation meets strategic expensivt as a dynamic force in the.</p>
           </div>
         </div>
       </div>
@@ -118,7 +118,7 @@ const Home3WorkProcess = () => {
           </div>
           <div className="content">
             <h4>Customization</h4>
-            <p>Welcome to Zenfy, where’r digital agi innovation meets strategic expensivt as a dynamic force in the.</p>
+            <p>Welcome to {process.env.NEXT_PUBLIC_COMPANY_NAME}, where’r digital agi innovation meets strategic expensivt as a dynamic force in the.</p>
           </div>
         </div>
       </div>

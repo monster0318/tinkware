@@ -30,7 +30,7 @@ const Home2Banner = () => {
                   </svg>
                 </span>
                 <h1>
-                  Explore Our Zenfy To See The Future Of{" "}
+                  Explore Our {process.env.NEXT_PUBLIC_COMPANY_NAME} To See The Future Of{" "}
                   <TypeAnimation
                     preRenderFirstString={true}
                     sequence={[

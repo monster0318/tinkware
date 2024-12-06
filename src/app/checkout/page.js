@@ -50,7 +50,7 @@ const CheckoutPage = () => {
                       <div className="col-md-6">
                         <div className="form-inner mb-30">
                           <label>Email Address (Optional)</label>
-                          <input type="email" placeholder="info@gmail.com" />
+                          <input type="email" placeholder={process.env.NEXT_PUBLIC_CONTACT_EMAIL} />
                         </div>
                       </div>
                       <div className="col-md-6">

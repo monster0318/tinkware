@@ -93,7 +93,7 @@ const Blogpage = () => {
                   </div>
                   <h4>
                     <Link href="/blog/blog-details">
-                      Mastering Efiecy Tips and Tricks with our Zenfy.
+                      Mastering Efiecy Tips and Tricks with our {process.env.NEXT_PUBLIC_COMPANY_NAME}.
                     </Link>
                   </h4>
                   <Link href="/blog/blog-details" className="read-more-btn">

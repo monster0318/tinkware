@@ -49,7 +49,7 @@ const BlogStandardPage = () => {
                       </Link>
                     </h4>
                     <p>
-                      Welcome to Zenfy, where digital innovation meets arg
+                      Welcome to {process.env.NEXT_PUBLIC_COMPANY_NAME}, where digital innovation meets arg
                       strategic excellence. As a dynamic force in thereal on
                       digital marketing, we are dedicated.There are many
                       variations of simply free text passages of available bumo
@@ -112,7 +112,7 @@ const BlogStandardPage = () => {
                       </Link>
                     </h4>
                     <p>
-                      Introducing to Zenfy, the intersection of arg strategic
+                      Introducing to {process.env.NEXT_PUBLIC_COMPANY_NAME}, the intersection of arg strategic
                       excellence with digital innovation. We are committed to
                       being a dynamic force in the field of digital
                       marketing.The bulk of the simply free text sections that
@@ -175,7 +175,7 @@ const BlogStandardPage = () => {
                       </Link>
                     </h4>
                     <p>
-                      Zenfy is a place where exceptional strategic planning and
+                      {process.env.NEXT_PUBLIC_COMPANY_NAME} is a place where exceptional strategic planning and
                       digital innovation come together. We are committed to
                       being a force to be reckoned with in digital marketing.A
                       significant number of the readily available free text

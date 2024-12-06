@@ -23,7 +23,7 @@ const Home2About = () => {
                     >
                       <path d="M11 5.5L9.48449 4.43056L10.2666 2.75L8.41505 2.58495L8.25 0.733376L6.56944 1.51551L5.5 0L4.43056 1.51551L2.75 0.733376L2.58495 2.58495L0.733376 2.75L1.51551 4.43056L0 5.5L1.51551 6.56944L0.733376 8.25L2.58495 8.41505L2.75 10.2666L4.43056 9.48449L5.5 11L6.56944 9.48449L8.25 10.2666L8.41505 8.41505L10.2666 8.25L9.48449 6.56944L11 5.5Z" />
                     </svg>
-                    Discover Zenfy
+                    Discover {process.env.NEXT_PUBLIC_COMPANY_NAME}
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={11}
@@ -170,14 +170,14 @@ const Home2About = () => {
                   </div>
                 </div>
                 <p>
-                  Welcome to Zenfy, where digital innovation meets strategic
+                  Welcome to {process.env.NEXT_PUBLIC_COMPANY_NAME}, where digital innovation meets strategic
                   excellence. As a dynamic force in the realm of digital
                   marketing, we are dedicated to propelling businesses into the
                   spotlight of online success. Our story is one of passion,
                   expertise, and a relentless pursuit of staying ahead in the
                   ever-evolving digital landscape. Founded with the vision of
                   revolutionizing the way brands connect with their audiences,
-                  Zenfy is more than an agency; it's a catalyst for digital
+                  {process.env.NEXT_PUBLIC_COMPANY_NAME} is more than an agency; it's a catalyst for digital
                   transformation. Join us on this journey, and let's chart a
                   course towards unprecedented growth and visibility in the vast
                   and dynamic world of digital marketing.

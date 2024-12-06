@@ -93,7 +93,7 @@ const Home3Testimonial = () => {
                 </span>
                 <h2>Hear What Our Clients Say</h2>
                 <p>
-                  Welcome to Zenfy, where digital innovation meets strategic
+                  Welcome to {process.env.NEXT_PUBLIC_COMPANY_NAME}, where digital innovation meets strategic
                   excellence. As a dynamic force in the realm of digital
                   marketing, we are dedicated to propelling businesses into the
                   spotlight of online success.
