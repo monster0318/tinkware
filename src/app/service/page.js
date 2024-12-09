@@ -96,7 +96,7 @@ const ServicePage = () => {
                   <p>
                     Strategic guidance for success: Elevate your business with
                     our expert Consulting Services, tailored for growth and
-                    innovation..
+                    innovation.
                   </p>
                 </div>
                 <Link href="/service/service-details" className="explore-btn">

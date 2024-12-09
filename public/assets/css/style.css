@@ -4455,6 +4455,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   07.Home1 Solution section
 ========================================*/
 .service-card {
+  height: 100%;
   background-color: var(--dark-white-color);
   border-radius: 5px;
   padding: 35px 30px;

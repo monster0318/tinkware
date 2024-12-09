@@ -14,9 +14,9 @@ import Home3Tools from "@/components/tools/Home3Tools";
 import Home3WorkProcess from "@/components/workProcess/Home3WorkProcess";
 
 export const metadata = {
-  title: "{process.env.NEXT_PUBLIC_COMPANY_NAME} - Software, SaaS & Digital Agency Template",
+  title: "{process.env.NEXT_PUBLIC_COMPANY_NAME} - IT Recruitment And Software Development Agency",
   icons: {
-    icon: "/assets/img/sm-logo.svg",
+    icon: "/assets/img/sm-logo.png",
   },
 };
 

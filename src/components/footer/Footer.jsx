@@ -17,44 +17,19 @@ const Footer = () => {
                     <ul className="widget-list">
                       <li>
                         <Link href="/service/service-details">
-                          Managed Services
+                          Talent Recruitment
                         </Link>
                       </li>
                       <li>
                         <Link href="/service/service-details">
-                          IT Consulting &amp; Advisory
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/service/service-details">
-                          Cyber Security
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/service/service-details">
-                          Web Development
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/service/service-details">
-                          Mobile Development
+                          Software Development
                         </Link>
                       </li>
                     </ul>
                     <ul className="widget-list">
                       <li>
                         <Link href="/service/service-details">
-                          Cloud Services
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/service/service-details">
-                          Network Connectivity
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/service/service-details">
-                          ERP Solutions
+                          Blockchain Development
                         </Link>
                       </li>
                     </ul>
