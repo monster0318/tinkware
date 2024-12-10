@@ -1,5 +1,5 @@
 /*===========================
-Project Name: InnoTink - HTML Template
+Project Name: Zenfy - HTML Template
 Author: Egens Lab --> (https://www.egenslab.com/)
 Support: https://egenslab.desky.support/
 Developer: Abid Hossain Chowdhury --> hello@egenslab.com
@@ -86,7 +86,7 @@ Version: 1.0
 /*===========================
      01.COMMON CSS 
 ===========================*/
-// @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 
 * {
   margin: 0;
@@ -141,67 +141,6 @@ body.dark{
   }
 }
 
-@font-face {
-  font-family: "Hanken Grotesk";
-  src: url(../fonts/HankenGrotesk-Black.ttf) format("truetype");
-  font-weight: 900;
-}
-@font-face {
-  font-family: "Hanken Grotesk";
-  src: url(../fonts/HankenGrotesk-ExtraBold.ttf) format("truetype");
-  font-weight: 800;
-}
-@font-face {
-  font-family: "Hanken Grotesk";
-  src: url(../fonts/HankenGrotesk-Bold.ttf) format("truetype");
-  font-weight: 700;
-}
-@font-face {
-  font-family: "Hanken Grotesk";
-  src: url(../fonts/HankenGrotesk-SemiBold.ttf) format("truetype");
-  font-weight: 600;
-}
-@font-face {
-  font-family: "Hanken Grotesk";
-  src: url(../fonts/HankenGrotesk-Medium.ttf) format("truetype");
-  font-weight: 500;
-}
-@font-face {
-  font-family: "Hanken Grotesk";
-  src: url(../fonts/HankenGrotesk-Regular.ttf) format("truetype");
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "Inter";
-  src: url(../fonts/Inter-Black.ttf) format("truetype");
-  font-weight: 900;
-}
-@font-face {
-  font-family: "Inter";
-  src: url(../fonts/Inter-ExtraBold.ttf) format("truetype");
-  font-weight: 800;
-}
-@font-face {
-  font-family: "Inter";
-  src: url(../fonts/Inter-Bold.ttf) format("truetype");
-  font-weight: 700;
-}
-@font-face {
-  font-family: "Inter";
-  src: url(../fonts/Inter-SemiBold.ttf) format("truetype");
-  font-weight: 600;
-}
-@font-face {
-  font-family: "Inter";
-  src: url(../fonts/Inter-Medium.ttf) format("truetype");
-  font-weight: 500;
-}
-@font-face {
-  font-family: "Inter";
-  src: url(../fonts/Inter-Regular.ttf) format("truetype");
-  font-weight: 400;
-}
 /*================================================
 02. Mixins Css
 =================================================*/
@@ -246,6 +185,7 @@ body.dark{
     @content;
   }
 }
+
 @mixin lg-device {
   @media (min-width: 992px) and (max-width: 1199px) {
     @content;
@@ -353,7 +293,8 @@ h3,
 h4,
 h5,
 h6 {
-
+  font-family: var(--font-hankenGrotesk);
+  font-weight: 600;
   line-height: 1.4;
   color: var(--title-color);
 }
@@ -4190,7 +4131,6 @@ header.style-3 {
     overflow: hidden;
     display: flex;
     align-items: center;
-    
     &.two{
       transform: rotate(-2deg) translateY(-13px);
       margin-top: -30px;
@@ -4211,10 +4151,6 @@ header.style-3 {
     height: 70px; 
     display: flex;
     align-items: center;
-    gap: 40px;
-    .rfm-child{
-      margin: 0 15px;
-    }
   }
   .js-marquee{
       display: flex;
@@ -4460,15 +4396,14 @@ header.style-3 {
             display: flex;
             align-items: baseline;
             gap: 10px;
+            margin-bottom: 10px;
             h5{
-              span{
-                font-size: 40px;
-                font-weight: 800;
-                margin-bottom: 0;
-                line-height: 1;
-                @include lg-down-device(){
-                  font-size: 35px;
-              }
+              font-size: 40px;
+              font-weight: 800;
+              margin-bottom: 0;
+              line-height: 1;
+              @include lg-down-device(){
+                font-size: 35px;
               }
             }
             span{
@@ -4672,7 +4607,7 @@ header.style-3 {
       transform: unset;
       padding: 40px 40px;
       display: flex ;
-      justify-content: flex-end;
+      justify-content: end;
       flex-direction: column;
       transition: .5s;
       @include xxl-down-device(){
@@ -4759,7 +4694,7 @@ header.style-3 {
       height: 380px;
       display: flex;
       justify-content: center;
-      align-items: flex-end;
+      align-items: end;
       padding: 0 80px;
       @include xxl-device(){
         padding: 0 30px;
@@ -5304,10 +5239,7 @@ header.style-3 {
     }
     .logo-area{
       overflow: hidden;
-      .rfm-child{
-        margin: 0 80px;
-      }
-      .rfm-marqueer{
+      .js-marquee-wrapper{
           display: flex;
           align-items: center;
           gap: 110px;
@@ -7140,7 +7072,7 @@ header.style-3 {
           @include md-down-device() {
             padding: 0;
             margin-bottom: 15px;
-            justify-content: flex-start;
+            justify-content: start;
             border-right: unset;
           }
   
@@ -8009,7 +7941,7 @@ header.style-3 {
   .pagination-area{
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: end;
     .swiper-pagination{
       position: relative;
       display: inline-flex;
@@ -8960,8 +8892,6 @@ header.style-3 {
       li{
         svg{
           fill: #F98138;
-          margin: 8px;
-
           path{
             &:last-child{
               fill: var(--dark-title-color);
@@ -9388,7 +9318,7 @@ header.style-3 {
         background-repeat: no-repeat;
         border-radius: 0 10px 10px 0;
         display: flex;
-        align-items: flex-end;
+        align-items: end;
         height: 100%;
         padding: 55px 0 0 55px;
         @include lg-device(){
@@ -9950,7 +9880,7 @@ header.style-3 {
     }
     @include sm-device(){
       flex-direction: column;
-      align-items: flex-start;
+      align-items: start;
     }
     .icon{
       border: 1px solid rgba(var(--title-color-opc), 0.05);
@@ -10526,7 +10456,7 @@ header.style-3 {
           background-color: unset;
           padding: 0;
           margin-bottom: 15px;
-          align-items: flex-start;
+          align-items: start;
           justify-content: space-between;
           border-right: unset;
         }
@@ -10917,12 +10847,6 @@ header.style-3 {
       background-color: #222222;
       padding: 25px 0;
       border-top: 1px solid rgba(#fff, 0.2);
-      .rfm-child{
-        margin: 0 85px;
-        @include sm-down-device(){
-          margin: 0 50px;
-        }
-      }
     }
     .js-marquee-wrapper{
         display: flex;
@@ -11019,7 +10943,7 @@ header.style-3 {
       padding: 20px 25px;
       border-radius: 10px;
       display: flex ;
-      justify-content: flex-end;
+      justify-content: end;
       flex-direction: column;
       z-index: 9;
       transition: .5s;
@@ -11527,9 +11451,6 @@ header.style-3 {
     .marquee_text{
       display: flex;
       align-items: center;
-      .rfm-child{
-        margin: 0 15px;
-      }
     }
     .js-marquee{
         display: flex;
@@ -11655,7 +11576,7 @@ header.style-3 {
       }
       @include md-down-device() {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: start;
       }
       @include sm-down-device(){
         padding: 30px 20px;
@@ -12067,7 +11988,7 @@ header.style-3 {
           bottom: 50px;
         }
         @include sm-down-device(){
-          justify-content: flex-end;
+          justify-content: end;
         }
         .dash{
             width: 100%;
@@ -12982,7 +12903,7 @@ header.style-3 {
     height: 75%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: end;
     h6{
       color: var(--primary-color1);
       font-family: var(--font-inter);
@@ -13222,7 +13143,7 @@ header.style-3 {
 ========================================*/
 .sub-title5{
   display: inline-flex;
-  align-items: flex-end;
+  align-items: end;
   justify-content: center;
   gap: 8px;
   color: var(--text-color);
@@ -14358,7 +14279,7 @@ header.style-3 {
       padding: 0;
       list-style: none;
       display: flex;
-      align-items: flex-end;
+      align-items: end;
       justify-content: center;
       padding-bottom: 20px;
       gap: 22px;
@@ -14475,11 +14396,11 @@ header.style-3 {
   .testimonial-left{
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: end;
     position: relative;
     z-index: 1;
     @include sm-down-device(){
-      justify-content: flex-start;
+      justify-content: start;
     }
     svg{
       stroke: #0B0C0C;
@@ -14611,7 +14532,7 @@ header.style-3 {
           bottom: 50px;
         }
         @include sm-down-device(){
-          justify-content: flex-end;
+          justify-content: end;
         }
         .dash{
             width: 100%;
@@ -18129,7 +18050,7 @@ header.style-3 {
       .social {
         display: flex;
         align-items: center;
-        justify-content: flex-end;
+        justify-content: end;
         gap: 20px;
 
         @include md-down-device() {
