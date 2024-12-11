@@ -6,7 +6,7 @@ import Home2CaseStudySlide from "@/components/caseStudy/Home2CaseStudySlide";
 import Home2Contact from "@/components/contact/Home2Contact";
 import Home2horizontalScroll from "@/components/feature/Home2horizontalScroll";
 import Footer2 from "@/components/footer/Footer2";
-import Header1 from "@/components/header/Header1";
+import Header1 from "@/components/header/Header";
 import Home2BannerMarquee from "@/components/marquee/Home2BannerMarquee";
 import LogoMarquee from "@/components/marquee/LogoMarquee";
 import Home2pricingPlan from "@/components/pricing-plan/Home2pricingPlan";

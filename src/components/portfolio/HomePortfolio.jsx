@@ -147,10 +147,10 @@ const Home1Portfolio = () => {
                           <img src="assets/img/home1/right-arrow.png" alt="" />
                         </Link>
                         <div className="catgory-and-title">
-                          <Link href="/portfolio">Resources</Link>
+                          <Link href="/portfolio">Consulting</Link>
                           <h5>
                             <Link href="/portfolio/portfolio-details">
-                              Human Resources Consulting
+                              IT Consulting
                             </Link>
                           </h5>
                         </div>
@@ -173,10 +173,10 @@ const Home1Portfolio = () => {
                           <img src="assets/img/home1/right-arrow.png" alt="" />
                         </Link>
                         <div className="catgory-and-title">
-                          <Link href="/portfolio">Technology</Link>
+                          <Link href="/portfolio">Agency</Link>
                           <h5>
                             <Link href="/portfolio/portfolio-details">
-                              IT Consulting
+                              Software Talent Agency
                             </Link>
                           </h5>
                         </div>
@@ -199,10 +199,10 @@ const Home1Portfolio = () => {
                           <img src="assets/img/home1/right-arrow.png" alt="" />
                         </Link>
                         <div className="catgory-and-title">
-                          <Link href="/portfolio">Finance</Link>
+                          <Link href="/portfolio">Acquisition </Link>
                           <h5>
                             <Link href="/portfolio/portfolio-details">
-                              Finance Consulting
+                              Tech Talent Pool
                             </Link>
                           </h5>
                         </div>
@@ -225,10 +225,10 @@ const Home1Portfolio = () => {
                           <img src="assets/img/home1/right-arrow.png" alt="" />
                         </Link>
                         <div className="catgory-and-title">
-                          <Link href="/portfolio">Consulting</Link>
+                          <Link href="/portfolio">Development</Link>
                           <h5>
                             <Link href="/portfolio/portfolio-details">
-                              Human Resources
+                              Blockchain development
                             </Link>
                           </h5>
                         </div>
@@ -251,10 +251,10 @@ const Home1Portfolio = () => {
                           <img src="assets/img/home1/right-arrow.png" alt="" />
                         </Link>
                         <div className="catgory-and-title">
-                          <Link href="/portfolio">Health Care</Link>
+                          <Link href="/portfolio">Cybersecurity</Link>
                           <h5>
                             <Link href="/portfolio/portfolio-details">
-                              Health Care Consult
+                              Security Compliance Audits
                             </Link>
                           </h5>
                         </div>

@@ -190,27 +190,24 @@ const Home1Testimonial = () => {
                       <div className="testimonial-card3 style-2">
                         <span>Great Digital Marketing!</span>
                         <p>
-                          “You can adjust the length and style of the line to
-                          match the overall design and formatting of your
-                          document. Some other divider options include dashes,
-                          stars, or even a graphical element.”
+                          “We were struggling with growing our brand and reaching the right customers. InnoTink totally changed that. They helped us build smarter marketing strategies that actually worked. We saw a big uptick in our customer base and engagement right after teaming up with them. They really know how to make tech work for marketing. 10/10 would recommend.”
                         </p>
                         <div className="author-and-logo-area">
                           <div className="author-area">
                             <div className="author-img">
                               <img
-                                src="assets/img/home2/testi-author-05.png"
+                                src="assets/img/testimonial/testi-author-01.jpg"
                                 alt=""
                               />
                             </div>
                             <div className="content">
-                              <h6>Luke Julian</h6>
-                              <span>CEO At astra.com</span>
+                              <h6>Hannah Schaefer</h6>
+                              <span>Marketing Director At Hims & Hers</span>
                             </div>
                           </div>
                           <div className="logo">
                             <img
-                              src="assets/img/home1/icon/testimonial-card-logo1.svg"
+                              src="assets/img/home1/icon/testimonial-card-logo3.svg"
                               alt=""
                             />
                           </div>

@@ -70,12 +70,9 @@ const Home1Banner = () => {
                     </g>
                   </svg>
                 </span>
-                <h1>Empowering your brand in the digital universe </h1>
+                <h1>Shaping Tomorrow, Today </h1>
                 <p>
-                  Join us as we carve a path to success, driven by passion,
-                  powered by innovation, and fueled by the collective spirit of
-                  our team. we believe in the power of bold ideas, and we're
-                  here to turn them into reality.{" "}
+                We are a dynamic technology company dedicated to providing innovative software solutions, blockchain advancements, and expert consulting services. At InnoTink, we understand that every business is unique, so we craft custom solutions that solve your challenges and amplify your growth. Let us take your ideas to the next level and transform your digital future.
                 </p>
                 <div className="banner-content-bottom">
                   <Link

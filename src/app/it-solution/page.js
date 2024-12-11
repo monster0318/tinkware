@@ -5,7 +5,7 @@ import Home5Banner from "@/components/banner/Home5Banner";
 import Home5Blog from "@/components/blog/Home5Blog";
 import Home5Contact from "@/components/contact/Home5Contact";
 import Footer5 from "@/components/footer/Footer5";
-import Header1 from "@/components/header/Header1";
+import Header1 from "@/components/header/Header";
 import Home5BannerMarque from "@/components/marquee/Home5BannerMarque";
 import Home5Portfolio from "@/components/portfolio/Home5Portfolio";
 import Home5Service from "@/components/service/Home5Service";

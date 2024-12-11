@@ -1,17 +1,17 @@
-import Home1About from "@/components/about/Home1About";
-import Home1Approach from "@/components/approachSection/Home1Approach";
-import Home1Banner from "@/components/banner/Home1Banner";
-import Home1Blog from "@/components/blog/Home1Blog";
+import HomeAbout from "@/components/about/Home1About";
+import HomeApproach from "@/components/approachSection/Home1Approach";
+import HomeBanner from "@/components/banner/HomeBanner";
+import HomeBlog from "@/components/blog/HomeBlog";
 import BannerWithCaseStudySlider from "@/components/caseStudy/BannerWithCaseStudySlider";
-import Home1Contact from "@/components/contact/Home1Contact";
+import HomeContact from "@/components/contact/HomeContact";
 import Footer from "@/components/footer/Footer";
-import Header1 from "@/components/header/Header1";
-import Home1BannerMarquee from "@/components/marquee/Home1BannerMarquee";
+import Header from "@/components/header/Header";
+import HomeBannerMarquee from "@/components/marquee/Home1BannerMarquee";
 import LogoMarquee from "@/components/marquee/LogoMarquee";
-import Home1Portfolio from "@/components/portfolio/Home1Portfolio";
-import Home1Solution from "@/components/solution/Home1Solution";
-import Home1Testimonial from "@/components/testimonial/Home1Testimonial";
-import Home1WorkProcess from "@/components/workProcess/Home1WorkProcess";
+import HomePortfolio from "@/components/portfolio/HomePortfolio";
+import HomeSolution from "@/components/solution/HomeSolution";
+import HomeTestimonial from "@/components/testimonial/HomeTestimonial";
+import HomeWorkProcess from "@/components/workProcess/Home1WorkProcess";
 
 export const metadata = {
   icons: {
@@ -21,19 +21,19 @@ export const metadata = {
 export default function Home() {
   return (
     <>
-      <Header1 />
-      <Home1Banner />
-      <Home1BannerMarquee />
-      <Home1About />
-      <Home1Solution />
-      <Home1Portfolio />
-      <Home1WorkProcess />
+      <Header />
+      <HomeBanner />
+      <HomeBannerMarquee />
+      <HomeAbout />
+      <HomeSolution />
+      <HomePortfolio />
+      <HomeWorkProcess />
       <BannerWithCaseStudySlider />
-      <Home1Approach />
+      <HomeApproach />
       <LogoMarquee />
-      <Home1Testimonial />
-      <Home1Blog />
-      <Home1Contact />
+      <HomeTestimonial />
+      <HomeBlog />
+      <HomeContact />
       <Footer />
     </>
   );

@@ -99,7 +99,7 @@ const BannerWithCaseStudySlider = () => {
                   data-wow-duration="1500ms"
                 >
                   <p>
-                    Dive into the success story of [Client/Project Name] and
+                    Dive into the success story of InnoTink and
                     witness firsthand the transformative journey that
                     exemplifies the impact of {process.env.NEXT_PUBLIC_COMPANY_NAME} solutions.
                   </p>

@@ -17,7 +17,17 @@ const Footer = () => {
                     <ul className="widget-list">
                       <li>
                         <Link href="/service/service-details">
-                          Managed Services
+                          Web Development
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/service/service-details">
+                          Mobile Development
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/service/service-details">
+                          Blockchain Development
                         </Link>
                       </li>
                       <li>
@@ -30,16 +40,6 @@ const Footer = () => {
                           Cyber Security
                         </Link>
                       </li>
-                      <li>
-                        <Link href="/service/service-details">
-                          Web Development
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/service/service-details">
-                          Mobile Development
-                        </Link>
-                      </li>
                     </ul>
                     <ul className="widget-list">
                       <li>
@@ -50,6 +50,11 @@ const Footer = () => {
                       <li>
                         <Link href="/service/service-details">
                           Network Connectivity
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/service/service-details">
+                          Managed Services
                         </Link>
                       </li>
                       <li>
@@ -122,7 +127,7 @@ const Footer = () => {
                   </div>
                   <div className="content">
                     <p>
-                      Welcome to {process.env.NEXT_PUBLIC_COMPANY_NAME}, where innovation meets our passion in a
+                      Welcome to InnoTink, where innovation meets our passion in a
                       journey that started with a simple idea and a shared
                       dream.
                     </p>
