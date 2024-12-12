@@ -218,10 +218,7 @@ const Home1Testimonial = () => {
                       <div className="testimonial-card3 style-2">
                         <span>Great Consulting!</span>
                         <p>
-                          “The line's length and style can be changed to better
-                          fit your document's general layout and style. Stars,
-                          dashes, or even a graphical element are some other
-                          divider alternatives.”
+                          “I've worked with InnoTink on multiple software development projects, and they consistently deliver high-quality results that exceed our expectations. Their team of experienced professionals brings innovative ideas and cutting-edge technology to every project, making them an invaluable partner for our company.”
                         </p>
                         <div className="author-and-logo-area">
                           <div className="author-area">
@@ -232,8 +229,8 @@ const Home1Testimonial = () => {
                               />
                             </div>
                             <div className="content">
-                              <h6>David Beckham</h6>
-                              <span>CEO At astra.com</span>
+                              <h6>John Richardson</h6>
+                              <span>CEO At TechWorld.Inc</span>
                             </div>
                           </div>
                           <div className="logo">
@@ -249,10 +246,7 @@ const Home1Testimonial = () => {
                       <div className="testimonial-card3 style-2">
                         <span>Great Digital Marketing!</span>
                         <p>
-                          “You can adjust the length and style of the line to
-                          match the overall design and formatting of your
-                          document. Some other divider options include dashes,
-                          stars, or even a graphical element.”
+                          “InnoTink's software development expertise has played a pivotal role in enhancing our marketing automation capabilities and enabling us to deliver personalized experiences to our customers. Their ability to quickly understand our business needs, propose effective solutions, and execute them flawlessly has made them an indispensable partner in our marketing technology strategy.”
                         </p>
                         <div className="author-and-logo-area">
                           <div className="author-area">
@@ -263,8 +257,8 @@ const Home1Testimonial = () => {
                               />
                             </div>
                             <div className="content">
-                              <h6>Daniel Scoot</h6>
-                              <span>CEO At astra.com</span>
+                              <h6>Sarah Martinez</h6>
+                              <span>Marketing Manager At CloudConnect</span>
                             </div>
                           </div>
                           <div className="logo">
@@ -280,10 +274,7 @@ const Home1Testimonial = () => {
                       <div className="testimonial-card3 style-2">
                         <span>Great Consulting!</span>
                         <p>
-                          “The line's length and style can be changed to better
-                          fit your document's general layout and style. Stars,
-                          dashes, or even a graphical element are some other
-                          divider alternatives.”
+                          “InnoTink has provided us with top-notch software consulting services, helping us identify areas of improvement and optimize our technology stack for maximum efficiency. Their team has excellent communication skills, a deep understanding of industry best practices, and a strong commitment to delivering results that drive real business value.”
                         </p>
                         <div className="author-and-logo-area">
                           <div className="author-area">
@@ -294,8 +285,8 @@ const Home1Testimonial = () => {
                               />
                             </div>
                             <div className="content">
-                              <h6>Flurance Miyagi</h6>
-                              <span>CEO At astra.com</span>
+                              <h6>Michael Peterson</h6>
+                              <span>CIO At eCommerce Inc.</span>
                             </div>
                           </div>
                           <div className="logo">
