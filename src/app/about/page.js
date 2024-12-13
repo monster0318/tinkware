@@ -741,8 +741,6 @@ const Aboutpage = () => {
       <Home4award />
 
       <Home5Team />
-
-      <Home5Blog />
     </MainLayout>
   );
 };
