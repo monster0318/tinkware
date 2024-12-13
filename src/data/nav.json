@@ -7,23 +7,23 @@
     {
         "id": "2",
         "label": "Services",
-        "link": "/",
+        "link": "/service",
         "icon": true,
         "subMenu": [
             {
-                "id": "2",
-                "label": "Software Development",
-                "link": "/service/software-development"
+                "id": "1",
+                "label": "Talent Recruitment",
+                "link": "/service/recruitment"
             },
             {
-                "id": "1",
-                "label": "Software Consulting",
-                "link": "/service/software-consulting"
+                "id": "2",
+                "label": "Software Development",
+                "link": "/service/software"
             },
             {
                 "id": "3",
                 "label": "Blockchain Development",
-                "link": "/service/blockchain-development"
+                "link": "/service/blockchain"
             }
         ]
     },

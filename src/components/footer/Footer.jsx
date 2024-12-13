@@ -16,62 +16,20 @@ const Footer = () => {
                   <div className="menu-container">
                     <ul className="widget-list">
                       <li>
-                        <Link href="/service/service-details">
-<<<<<<< HEAD
-                          Web Development
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/service/service-details">
-                          Mobile Development
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/service/service-details">
-                          Blockchain Development
-=======
+                        <Link href="/service/recruitment">
                           Talent Recruitment
->>>>>>> b9fc3e34b66ac8688df640b247571066ec30927a
                         </Link>
                       </li>
                       <li>
-                        <Link href="/service/service-details">
-<<<<<<< HEAD
-                          IT Consulting &amp; Advisory
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/service/service-details">
-                          Cyber Security
-=======
+                        <Link href="/service/software">
                           Software Development
->>>>>>> b9fc3e34b66ac8688df640b247571066ec30927a
                         </Link>
                       </li>
                     </ul>
                     <ul className="widget-list">
                       <li>
-                        <Link href="/service/service-details">
-<<<<<<< HEAD
-                          Cloud Services
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/service/service-details">
-                          Network Connectivity
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/service/service-details">
-                          Managed Services
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/service/service-details">
-                          ERP Solutions
-=======
+                        <Link href="/service/blockchain">
                           Blockchain Development
->>>>>>> b9fc3e34b66ac8688df640b247571066ec30927a
                         </Link>
                       </li>
                     </ul>
@@ -295,7 +253,7 @@ const Footer = () => {
           <div className="footer-bottom">
             <div className="copyright-area">
               <p>
-                Copyright 2024 <a href="#">{process.env.NEXT_PUBLIC_COMPANY_NAME}</a>
+                Copyright 2019 <a href="#">{process.env.NEXT_PUBLIC_COMPANY_NAME}</a>
               </p>
             </div>
             <div className="footer-bottom-right">

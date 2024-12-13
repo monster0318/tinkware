@@ -19506,3 +19506,9 @@ body:not(.is-mobile) .tt-style-switch:hover {
     transform: none;
   }
 }/*# sourceMappingURL=style.css.map */
+
+/* Custom Style */
+
+.rfm-child {
+  min-width: 240px;
+}

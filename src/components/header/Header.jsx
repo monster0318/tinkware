@@ -149,7 +149,7 @@ const Header1 = () => {
                       }`}
                     >
                       <li>
-                        <Link href="/service">
+                        <Link href="/service/recruitment">
                           Talent Recruitment
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -162,7 +162,7 @@ const Header1 = () => {
                         </Link>
                       </li>
                       <li>
-                        <Link href="/service/service2">
+                        <Link href="/service/software">
                           Software Development
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -175,7 +175,7 @@ const Header1 = () => {
                         </Link>
                       </li>
                       <li>
-                        <Link href="/service/service3">
+                        <Link href="/service/blockchain">
                           Blockchain Development
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
