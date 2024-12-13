@@ -150,25 +150,24 @@ const Home5Service = () => {
                     </div>
                     <div className="services-content">
                       <div className="title-category">
-                        <h3>Cyber Security</h3>
+                        <h3>Blockchain Solutions</h3>
                         <span>IT Service</span>
                       </div>
                       <p>
-                        Health and care consulting refers to the practice of
-                        providing expert.
+                      Blockchain technology is revolutionizing industries with secure and decentralized solutions.
                       </p>
                       <ul>
                         <li>
-                          <i className="bi bi-plus-lg" /> Network Monitoring
+                          <i className="bi bi-plus-lg" /> Smart Contract
                         </li>
                         <li>
-                          <i className="bi bi-plus-lg" /> Flexible Service
+                          <i className="bi bi-plus-lg" /> Private & Public Blockchain
                         </li>
                         <li>
-                          <i className="bi bi-plus-lg" /> Server Performance
+                          <i className="bi bi-plus-lg" /> Tokenization Services
                         </li>
                         <li>
-                          <i className="bi bi-plus-lg" /> Data Encryption
+                          <i className="bi bi-plus-lg" /> Secure Data Transactions
                         </li>
                       </ul>
                       <Link

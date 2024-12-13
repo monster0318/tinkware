@@ -10,7 +10,6 @@ const Servicepage4 = () => {
   return (
     <MainLayout>
       <Home5Service />
-      <Home5Partnerships />
     </MainLayout>
   );
 };

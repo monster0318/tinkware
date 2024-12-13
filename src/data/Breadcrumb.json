@@ -8,24 +8,24 @@
     },
     {
         "id": "2",
-        "name": "SOLUTIONS",
-        "slug": "/service/service2",
-        "pageTitle": "Services & Solutions.",
-        "section_down_scroll": "#service-section"
+        "name": "RECRUITMENT",
+        "slug": "/service/recruitment",
+        "pageTitle": "Talent Recruitment.",
+        "section_down_scroll": "#recruitment-section"
     },
     {
         "id": "3",
-        "name": "SOLUTIONS",
-        "slug": "/service/service3",
-        "pageTitle": "Services & Solutions.",
-        "section_down_scroll": "#service-section"
+        "name": "SOFTWARE",
+        "slug": "/service/software",
+        "pageTitle": "SOFTWARE DEVELOPMENT",
+        "section_down_scroll": "#software-section"
     },
     {
         "id": "4",
-        "name": "SOLUTIONS",
-        "slug": "/service/service4",
-        "pageTitle": "Services & Solutions.",
-        "section_down_scroll": "#service-section"
+        "name": "BLOCKCHAIN",
+        "slug": "/service/blockchain",
+        "pageTitle": "Blockchain development",
+        "section_down_scroll": "#blockchain-section"
     },
     {
         "id": "5",
