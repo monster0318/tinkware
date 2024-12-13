@@ -1,7 +1,7 @@
 "use client";
 import CountUp from "react-countup";
 
-const Home5whyChoose = () => {
+const HomewhyChoose = () => {
   return (
     <>
       <div className="home5-why-choose-section mb-120">
@@ -37,11 +37,9 @@ const Home5whyChoose = () => {
                   <span>on delivering unique ideas.</span>
                 </h2>
                 <p>
-                  Where innovation meets passion in a journey that started with
-                  a simple idea and a shared dora Founded in recent year we
-                  embarked on a mission told bring the new innovation and
-                  introduct the technology. From humble beginnings to our
-                  current aspirations.
+                  At our IT service company, we harness the expertise of skilled
+                  professionals to transform bold concepts into groundbreaking
+                  solutions that set new standards in the industry.
                 </p>
               </div>
             </div>
@@ -59,11 +57,11 @@ const Home5whyChoose = () => {
             <div className="col-lg-7">
               <div className="why-choose-content">
                 <p>
-                  Where innovation meets passion in a journey that started with
-                  a simple idea and a shared dora Founded in recent year we
-                  embarked on a mission told bring the new innovation and
-                  introduct the technology. From humble beginnings to our
-                  current aspirations.
+                  In our IT service company, we believe that true innovation
+                  comes from the collaboration of curious minds, where every
+                  unique idea is nurtured and transformed into impactful
+                  solutions that not only solve problems but also inspire
+                  progress and shape the future.
                 </p>
                 <div className="about-coundown-area">
                   <div className="row g-0">
@@ -143,4 +141,4 @@ const Home5whyChoose = () => {
   );
 };
 
-export default Home5whyChoose;
+export default HomewhyChoose;
