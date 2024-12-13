@@ -17,19 +17,61 @@ const Footer = () => {
                     <ul className="widget-list">
                       <li>
                         <Link href="/service/service-details">
-                          Talent Recruitment
+<<<<<<< HEAD
+                          Web Development
                         </Link>
                       </li>
                       <li>
                         <Link href="/service/service-details">
+                          Mobile Development
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/service/service-details">
+                          Blockchain Development
+=======
+                          Talent Recruitment
+>>>>>>> b9fc3e34b66ac8688df640b247571066ec30927a
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/service/service-details">
+<<<<<<< HEAD
+                          IT Consulting &amp; Advisory
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/service/service-details">
+                          Cyber Security
+=======
                           Software Development
+>>>>>>> b9fc3e34b66ac8688df640b247571066ec30927a
                         </Link>
                       </li>
                     </ul>
                     <ul className="widget-list">
                       <li>
                         <Link href="/service/service-details">
+<<<<<<< HEAD
+                          Cloud Services
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/service/service-details">
+                          Network Connectivity
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/service/service-details">
+                          Managed Services
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/service/service-details">
+                          ERP Solutions
+=======
                           Blockchain Development
+>>>>>>> b9fc3e34b66ac8688df640b247571066ec30927a
                         </Link>
                       </li>
                     </ul>
@@ -97,7 +139,7 @@ const Footer = () => {
                   </div>
                   <div className="content">
                     <p>
-                      Welcome to {process.env.NEXT_PUBLIC_COMPANY_NAME}, where innovation meets our passion in a
+                      Welcome to InnoTink, where innovation meets our passion in a
                       journey that started with a simple idea and a shared
                       dream.
                     </p>

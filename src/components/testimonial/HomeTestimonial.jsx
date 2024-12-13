@@ -190,84 +190,19 @@ const Home1Testimonial = () => {
                       <div className="testimonial-card3 style-2">
                         <span>Great Digital Marketing!</span>
                         <p>
-                          “You can adjust the length and style of the line to
-                          match the overall design and formatting of your
-                          document. Some other divider options include dashes,
-                          stars, or even a graphical element.”
+                          “We were struggling with growing our brand and reaching the right customers. InnoTink totally changed that. They helped us build smarter marketing strategies that actually worked. We saw a big uptick in our customer base and engagement right after teaming up with them. They really know how to make tech work for marketing. 10/10 would recommend.”
                         </p>
                         <div className="author-and-logo-area">
                           <div className="author-area">
                             <div className="author-img">
                               <img
-                                src="assets/img/home2/testi-author-05.png"
+                                src="assets/img/testimonial/testi-author-01.jpg"
                                 alt=""
                               />
                             </div>
                             <div className="content">
-                              <h6>Luke Julian</h6>
-                              <span>CEO At astra.com</span>
-                            </div>
-                          </div>
-                          <div className="logo">
-                            <img
-                              src="assets/img/home1/icon/testimonial-card-logo1.svg"
-                              alt=""
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide className="swiper-slide">
-                      <div className="testimonial-card3 style-2">
-                        <span>Great Consulting!</span>
-                        <p>
-                          “The line's length and style can be changed to better
-                          fit your document's general layout and style. Stars,
-                          dashes, or even a graphical element are some other
-                          divider alternatives.”
-                        </p>
-                        <div className="author-and-logo-area">
-                          <div className="author-area">
-                            <div className="author-img">
-                              <img
-                                src="assets/img/home2/testi-author-01.png"
-                                alt=""
-                              />
-                            </div>
-                            <div className="content">
-                              <h6>David Beckham</h6>
-                              <span>CEO At astra.com</span>
-                            </div>
-                          </div>
-                          <div className="logo">
-                            <img
-                              src="assets/img/home1/icon/testimonial-card-logo2.svg"
-                              alt=""
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide className="swiper-slide">
-                      <div className="testimonial-card3 style-2">
-                        <span>Great Digital Marketing!</span>
-                        <p>
-                          “You can adjust the length and style of the line to
-                          match the overall design and formatting of your
-                          document. Some other divider options include dashes,
-                          stars, or even a graphical element.”
-                        </p>
-                        <div className="author-and-logo-area">
-                          <div className="author-area">
-                            <div className="author-img">
-                              <img
-                                src="assets/img/home2/testi-author-02.png"
-                                alt=""
-                              />
-                            </div>
-                            <div className="content">
-                              <h6>Daniel Scoot</h6>
-                              <span>CEO At astra.com</span>
+                              <h6>Hannah Schaefer</h6>
+                              <span>Marketing Director At Hims & Hers</span>
                             </div>
                           </div>
                           <div className="logo">
@@ -283,10 +218,63 @@ const Home1Testimonial = () => {
                       <div className="testimonial-card3 style-2">
                         <span>Great Consulting!</span>
                         <p>
-                          “The line's length and style can be changed to better
-                          fit your document's general layout and style. Stars,
-                          dashes, or even a graphical element are some other
-                          divider alternatives.”
+                          “I've worked with InnoTink on multiple software development projects, and they consistently deliver high-quality results that exceed our expectations. Their team of experienced professionals brings innovative ideas and cutting-edge technology to every project, making them an invaluable partner for our company.”
+                        </p>
+                        <div className="author-and-logo-area">
+                          <div className="author-area">
+                            <div className="author-img">
+                              <img
+                                src="assets/img/home2/testi-author-01.png"
+                                alt=""
+                              />
+                            </div>
+                            <div className="content">
+                              <h6>John Richardson</h6>
+                              <span>CEO At TechWorld.Inc</span>
+                            </div>
+                          </div>
+                          <div className="logo">
+                            <img
+                              src="assets/img/home1/icon/testimonial-card-logo2.svg"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide className="swiper-slide">
+                      <div className="testimonial-card3 style-2">
+                        <span>Great Digital Marketing!</span>
+                        <p>
+                          “InnoTink's software development expertise has played a pivotal role in enhancing our marketing automation capabilities and enabling us to deliver personalized experiences to our customers. Their ability to quickly understand our business needs, propose effective solutions, and execute them flawlessly has made them an indispensable partner in our marketing technology strategy.”
+                        </p>
+                        <div className="author-and-logo-area">
+                          <div className="author-area">
+                            <div className="author-img">
+                              <img
+                                src="assets/img/home2/testi-author-02.png"
+                                alt=""
+                              />
+                            </div>
+                            <div className="content">
+                              <h6>Sarah Martinez</h6>
+                              <span>Marketing Manager At CloudConnect</span>
+                            </div>
+                          </div>
+                          <div className="logo">
+                            <img
+                              src="assets/img/home1/icon/testimonial-card-logo3.svg"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide className="swiper-slide">
+                      <div className="testimonial-card3 style-2">
+                        <span>Great Consulting!</span>
+                        <p>
+                          “InnoTink has provided us with top-notch software consulting services, helping us identify areas of improvement and optimize our technology stack for maximum efficiency. Their team has excellent communication skills, a deep understanding of industry best practices, and a strong commitment to delivering results that drive real business value.”
                         </p>
                         <div className="author-and-logo-area">
                           <div className="author-area">
@@ -297,8 +285,8 @@ const Home1Testimonial = () => {
                               />
                             </div>
                             <div className="content">
-                              <h6>Flurance Miyagi</h6>
-                              <span>CEO At astra.com</span>
+                              <h6>Michael Peterson</h6>
+                              <span>CIO At eCommerce Inc.</span>
                             </div>
                           </div>
                           <div className="logo">
