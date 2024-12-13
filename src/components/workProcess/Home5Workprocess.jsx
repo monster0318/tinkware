@@ -109,9 +109,9 @@ const Home5Workprocess = () => {
                         <div className="content">
                           <h4>Client Consultation</h4>
                           <p>
-                            Sed accumsan sem cursus luctus porta. amem Phasellu
-                            du enim, efficitur quis velit ac, fringilla posuere
-                            leo fusci.
+                            We start with an in-depth consultation to understand
+                            your business needs, challenges, and goals to craft
+                            a tailored IT strategy.
                           </p>
                         </div>
                       </div>
@@ -131,9 +131,9 @@ const Home5Workprocess = () => {
                         <div className="content">
                           <h4>Strategy Development</h4>
                           <p>
-                            Sed accumsan sem cursus luctus porta. amem Phasellu
-                            du enim, efficitur quis velit ac, fringilla posuere
-                            leo fusci.
+                            Our experts develop a comprehensive roadmap,
+                            aligning cutting-edge solutions with your vision to
+                            ensure optimal results.
                           </p>
                         </div>
                       </div>
@@ -153,9 +153,9 @@ const Home5Workprocess = () => {
                         <div className="content">
                           <h4>Market Research</h4>
                           <p>
-                            Sed accumsan sem cursus luctus porta. amem Phasellu
-                            du enim, efficitur quis velit ac, fringilla posuere
-                            leo fusci.
+                            We analyze market trends and vendor options to
+                            identify the best-fit solutions for your
+                            requirements.
                           </p>
                         </div>
                       </div>
@@ -173,11 +173,11 @@ const Home5Workprocess = () => {
                           </div>
                         </div>
                         <div className="content">
-                          <h4>Campaign Planning</h4>
+                          <h4>Vendor Selection</h4>
                           <p>
-                            Sed accumsan sem cursus luctus porta. amem Phasellu
-                            du enim, efficitur quis velit ac, fringilla posuere
-                            leo fusci.
+                            We carefully shortlist and recommend top-tier
+                            vendors, ensuring quality, reliability, and
+                            cost-effectiveness.
                           </p>
                         </div>
                       </div>
@@ -191,11 +191,11 @@ const Home5Workprocess = () => {
                           </div>
                         </div>
                         <div className="content">
-                          <h4>Campaign Planning</h4>
+                          <h4>Implementation & Support</h4>
                           <p>
-                            Sed accumsan sem cursus luctus porta. amem Phasellu
-                            du enim, efficitur quis velit ac, fringilla posuere
-                            leo fusci.
+                            From deployment to ongoing maintenance, we provide
+                            seamless implementation and dedicated support for
+                            long-term success.
                           </p>
                         </div>
                       </div>

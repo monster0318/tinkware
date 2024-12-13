@@ -2,7 +2,8 @@ import MainLayout from "@/components/layout/MainLayout";
 import Home5Workprocess from "@/components/workProcess/Home5Workprocess";
 
 export const metadata = {
-  title: "{process.env.NEXT_PUBLIC_COMPANY_NAME} - IT Recruitment And Software Development Agency",
+  title:
+    "{process.env.NEXT_PUBLIC_COMPANY_NAME} - IT Recruitment And Software Development Agency",
   icons: {
     icon: "/assets/img/sm-logo.png",
   },
@@ -146,7 +147,8 @@ const ServiceDetailsPage = () => {
                           aria-expanded="true"
                           aria-controls="faqcollapseOne"
                         >
-                          01. What is Task Management and how does it work?
+                          01. How does InnoTink ensure scalability in your
+                          software solutions?
                         </button>
                       </h2>
                       <div
@@ -156,10 +158,10 @@ const ServiceDetailsPage = () => {
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inci only Integer purus onthis felis non
-                          aliquam.Mauris nec just vitae ann auctor tol euismod
-                          sit amet non ipsul growing this
+                          We design software architectures that support future
+                          growth by leveraging modular frameworks, cloud
+                          infrastructure, and performance optimization
+                          techniques.
                         </div>
                       </div>
                     </div>
@@ -173,7 +175,8 @@ const ServiceDetailsPage = () => {
                           aria-expanded="false"
                           aria-controls="faqcollapseTwo"
                         >
-                          02. Is {process.env.NEXT_PUBLIC_COMPANY_NAME} suitable for my business?
+                          02. What is approach of InnoTink to managing project
+                          timelines and deliverables?
                         </button>
                       </h2>
                       <div
@@ -183,12 +186,10 @@ const ServiceDetailsPage = () => {
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos only Integer purus onthis
-                          placerat felis non aliquam.Mauris nec justo vitae ante
-                          auctor tol euismod sit amet non ipsul growing this
-                          Praesent commodo at massa eget suscipit. Utani vitae
-                          enim velit.
+                          We follow a structured methodology, using tools like
+                          Agile or Scrum to break projects into manageable
+                          sprints, ensuring clear milestones and timely
+                          delivery.
                         </div>
                       </div>
                     </div>
@@ -202,7 +203,8 @@ const ServiceDetailsPage = () => {
                           aria-expanded="false"
                           aria-controls="faqcollapseThree"
                         >
-                          03. The system requirements using Task Management?
+                          03. How does InnoTink handle integration with existing
+                          systems?
                         </button>
                       </h2>
                       <div
@@ -212,12 +214,10 @@ const ServiceDetailsPage = () => {
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos only Integer purus onthis
-                          placerat felis non aliquam.Mauris nec justo vitae ante
-                          auctor tol euismod sit amet non ipsul growing this
-                          Praesent commodo at massa eget suscipit. Utani vitae
-                          enim velit.
+                          We conduct a comprehensive analysis of your existing
+                          infrastructure and use APIs, middleware, or custom
+                          solutions to ensure seamless integration without
+                          disruptions.
                         </div>
                       </div>
                     </div>
@@ -231,7 +231,8 @@ const ServiceDetailsPage = () => {
                           aria-expanded="false"
                           aria-controls="faqcollapseFour"
                         >
-                          04. How can I upgrade my subscription?
+                          04. What security measures does InnoTink incorporate into
+                          software development?
                         </button>
                       </h2>
                       <div
@@ -241,12 +242,10 @@ const ServiceDetailsPage = () => {
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos only Integer purus onthis
-                          placerat felis non aliquam.Mauris nec justo vitae ante
-                          auctor tol euismod sit amet non ipsul growing this
-                          Praesent commodo at massa eget suscipit. Utani vitae
-                          enim velit.
+                          We implement industry standards like data encryption,
+                          secure coding practices, regular vulnerability
+                          assessments, and compliance with regulations such as
+                          GDPR and HIPAA.
                         </div>
                       </div>
                     </div>
@@ -260,7 +259,8 @@ const ServiceDetailsPage = () => {
                           aria-expanded="true"
                           aria-controls="faqcollapseFive"
                         >
-                          05. How can I upgrade my subscription?
+                          05. How does InnoTink ensure the software meets business
+                          requirements?
                         </button>
                       </h2>
                       <div
@@ -270,10 +270,10 @@ const ServiceDetailsPage = () => {
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inci only Integer purus onthis felis non
-                          aliquam.Mauris nec just vitae ann auctor tol euismod
-                          sit amet non ipsul growing this
+                          We collaborate closely with stakeholders, maintain
+                          clear documentation, and conduct regular reviews and
+                          user acceptance testing to align the product with your
+                          goals.
                         </div>
                       </div>
                     </div>
