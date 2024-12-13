@@ -2,7 +2,8 @@ import MainLayout from "@/components/layout/MainLayout";
 import Home5Workprocess from "@/components/workProcess/Home5Workprocess";
 
 export const metadata = {
-  title: "{process.env.NEXT_PUBLIC_COMPANY_NAME} - IT Recruitment And Software Development Agency",
+  title:
+    "{process.env.NEXT_PUBLIC_COMPANY_NAME} - IT Recruitment And Software Development Agency",
   icons: {
     icon: "/assets/img/sm-logo.png",
   },
@@ -25,15 +26,16 @@ const ServiceDetailsPage = () => {
               >
                 <div className="service-details-top-content">
                   <h2>
-                    Software <span>Development.</span>
+                    Tech Talent <span>Recruitment</span>
                   </h2>
                   <p>
-                    Where innovation meets passion in a journey that started
-                    with a simple idea and a shared dream. Founded in recent
-                    year we embarked on a mission to bring the new innovation
-                    and introduce the technology. From humble beginnings to our
-                    current aspirations, every step has been fueled by a
-                    relentless commitment.
+                    Where innovation meets passion in the pursuit of building
+                    exceptional teams. Founded with a vision to connect
+                    businesses with top-tier tech talent, we are driven by a
+                    commitment to transforming industries with skilled
+                    professionals. From our humble beginnings to our current
+                    success, every step is fueled by the dedication to elevate
+                    your workforce.
                   </p>
                   <ul className="key-features">
                     <li>
@@ -45,7 +47,7 @@ const ServiceDetailsPage = () => {
                       >
                         <path d="M0.376831 8.16821C-0.247095 8.54593 -0.0579659 9.49862 0.662688 9.60837C1.24211 9.69666 1.52052 10.3701 1.17304 10.8431C0.740845 11.4312 1.27942 12.2389 1.98713 12.0639C2.55609 11.9231 3.07065 12.4387 2.9302 13.0088C2.75556 13.718 3.56158 14.2577 4.14855 13.8246C4.62054 13.4764 5.29275 13.7554 5.38073 14.336C5.49024 15.0581 6.44099 15.2476 6.81798 14.6224C7.12107 14.1198 7.84864 14.1198 8.15171 14.6224C8.52867 15.2476 9.47943 15.0581 9.58896 14.336C9.67707 13.7554 10.3492 13.4764 10.8211 13.8246C11.4081 14.2577 12.2142 13.718 12.0395 13.0088C11.899 12.4387 12.4136 11.9231 12.9826 12.0639C13.6903 12.2389 14.2289 11.4312 13.7967 10.8431C13.4492 10.3701 13.7276 9.69653 14.307 9.60837C15.0276 9.49864 15.2168 8.54597 14.5929 8.16821C14.0912 7.86452 14.0912 7.13547 14.5929 6.83178C15.2168 6.45407 15.0277 5.50138 14.307 5.39162C13.7276 5.30334 13.4492 4.62989 13.7967 4.15695C14.2289 3.56879 13.6903 2.76112 12.9826 2.93613C12.4136 3.07687 11.8991 2.5613 12.0395 1.99115C12.2141 1.28199 11.4081 0.742345 10.8211 1.17541C10.3492 1.52356 9.67695 1.2446 9.58896 0.664029C9.47945 -0.0580599 8.5287 -0.247606 8.15171 0.377594C7.84863 0.880237 7.12106 0.880237 6.81798 0.377594C6.44103 -0.247596 5.49027 -0.0580833 5.38073 0.664029C5.29263 1.24462 4.62054 1.5236 4.14855 1.17541C3.56158 0.742345 2.75554 1.28201 2.9302 1.99115C3.07065 2.56126 2.55612 3.07686 1.98713 2.93613C1.2794 2.76113 0.740845 3.56879 1.17304 4.15695C1.52049 4.62989 1.24209 5.30346 0.662688 5.39162C-0.0579425 5.50136 -0.247105 6.45403 0.376831 6.83178C0.878459 7.13548 0.878459 7.86453 0.376831 8.16821Z" />
                       </svg>
-                      Custom Software
+                      Custom Talent Solutions
                     </li>
                     <li>
                       <svg
@@ -56,7 +58,7 @@ const ServiceDetailsPage = () => {
                       >
                         <path d="M0.376831 8.16821C-0.247095 8.54593 -0.0579659 9.49862 0.662688 9.60837C1.24211 9.69666 1.52052 10.3701 1.17304 10.8431C0.740845 11.4312 1.27942 12.2389 1.98713 12.0639C2.55609 11.9231 3.07065 12.4387 2.9302 13.0088C2.75556 13.718 3.56158 14.2577 4.14855 13.8246C4.62054 13.4764 5.29275 13.7554 5.38073 14.336C5.49024 15.0581 6.44099 15.2476 6.81798 14.6224C7.12107 14.1198 7.84864 14.1198 8.15171 14.6224C8.52867 15.2476 9.47943 15.0581 9.58896 14.336C9.67707 13.7554 10.3492 13.4764 10.8211 13.8246C11.4081 14.2577 12.2142 13.718 12.0395 13.0088C11.899 12.4387 12.4136 11.9231 12.9826 12.0639C13.6903 12.2389 14.2289 11.4312 13.7967 10.8431C13.4492 10.3701 13.7276 9.69653 14.307 9.60837C15.0276 9.49864 15.2168 8.54597 14.5929 8.16821C14.0912 7.86452 14.0912 7.13547 14.5929 6.83178C15.2168 6.45407 15.0277 5.50138 14.307 5.39162C13.7276 5.30334 13.4492 4.62989 13.7967 4.15695C14.2289 3.56879 13.6903 2.76112 12.9826 2.93613C12.4136 3.07687 11.8991 2.5613 12.0395 1.99115C12.2141 1.28199 11.4081 0.742345 10.8211 1.17541C10.3492 1.52356 9.67695 1.2446 9.58896 0.664029C9.47945 -0.0580599 8.5287 -0.247606 8.15171 0.377594C7.84863 0.880237 7.12106 0.880237 6.81798 0.377594C6.44103 -0.247596 5.49027 -0.0580833 5.38073 0.664029C5.29263 1.24462 4.62054 1.5236 4.14855 1.17541C3.56158 0.742345 2.75554 1.28201 2.9302 1.99115C3.07065 2.56126 2.55612 3.07686 1.98713 2.93613C1.2794 2.76113 0.740845 3.56879 1.17304 4.15695C1.52049 4.62989 1.24209 5.30346 0.662688 5.39162C-0.0579425 5.50136 -0.247105 6.45403 0.376831 6.83178C0.878459 7.13548 0.878459 7.86453 0.376831 8.16821Z" />
                       </svg>
-                      Mobile Application
+                      Blockchain Development Experts
                     </li>
                     <li>
                       <svg
@@ -78,7 +80,7 @@ const ServiceDetailsPage = () => {
                       >
                         <path d="M0.376831 8.16821C-0.247095 8.54593 -0.0579659 9.49862 0.662688 9.60837C1.24211 9.69666 1.52052 10.3701 1.17304 10.8431C0.740845 11.4312 1.27942 12.2389 1.98713 12.0639C2.55609 11.9231 3.07065 12.4387 2.9302 13.0088C2.75556 13.718 3.56158 14.2577 4.14855 13.8246C4.62054 13.4764 5.29275 13.7554 5.38073 14.336C5.49024 15.0581 6.44099 15.2476 6.81798 14.6224C7.12107 14.1198 7.84864 14.1198 8.15171 14.6224C8.52867 15.2476 9.47943 15.0581 9.58896 14.336C9.67707 13.7554 10.3492 13.4764 10.8211 13.8246C11.4081 14.2577 12.2142 13.718 12.0395 13.0088C11.899 12.4387 12.4136 11.9231 12.9826 12.0639C13.6903 12.2389 14.2289 11.4312 13.7967 10.8431C13.4492 10.3701 13.7276 9.69653 14.307 9.60837C15.0276 9.49864 15.2168 8.54597 14.5929 8.16821C14.0912 7.86452 14.0912 7.13547 14.5929 6.83178C15.2168 6.45407 15.0277 5.50138 14.307 5.39162C13.7276 5.30334 13.4492 4.62989 13.7967 4.15695C14.2289 3.56879 13.6903 2.76112 12.9826 2.93613C12.4136 3.07687 11.8991 2.5613 12.0395 1.99115C12.2141 1.28199 11.4081 0.742345 10.8211 1.17541C10.3492 1.52356 9.67695 1.2446 9.58896 0.664029C9.47945 -0.0580599 8.5287 -0.247606 8.15171 0.377594C7.84863 0.880237 7.12106 0.880237 6.81798 0.377594C6.44103 -0.247596 5.49027 -0.0580833 5.38073 0.664029C5.29263 1.24462 4.62054 1.5236 4.14855 1.17541C3.56158 0.742345 2.75554 1.28201 2.9302 1.99115C3.07065 2.56126 2.55612 3.07686 1.98713 2.93613C1.2794 2.76113 0.740845 3.56879 1.17304 4.15695C1.52049 4.62989 1.24209 5.30346 0.662688 5.39162C-0.0579425 5.50136 -0.247105 6.45403 0.376831 6.83178C0.878459 7.13548 0.878459 7.86453 0.376831 8.16821Z" />
                       </svg>
-                      Web Application
+                      Web Development Talent
                     </li>
                     <li>
                       <svg
@@ -89,7 +91,7 @@ const ServiceDetailsPage = () => {
                       >
                         <path d="M0.376831 8.16821C-0.247095 8.54593 -0.0579659 9.49862 0.662688 9.60837C1.24211 9.69666 1.52052 10.3701 1.17304 10.8431C0.740845 11.4312 1.27942 12.2389 1.98713 12.0639C2.55609 11.9231 3.07065 12.4387 2.9302 13.0088C2.75556 13.718 3.56158 14.2577 4.14855 13.8246C4.62054 13.4764 5.29275 13.7554 5.38073 14.336C5.49024 15.0581 6.44099 15.2476 6.81798 14.6224C7.12107 14.1198 7.84864 14.1198 8.15171 14.6224C8.52867 15.2476 9.47943 15.0581 9.58896 14.336C9.67707 13.7554 10.3492 13.4764 10.8211 13.8246C11.4081 14.2577 12.2142 13.718 12.0395 13.0088C11.899 12.4387 12.4136 11.9231 12.9826 12.0639C13.6903 12.2389 14.2289 11.4312 13.7967 10.8431C13.4492 10.3701 13.7276 9.69653 14.307 9.60837C15.0276 9.49864 15.2168 8.54597 14.5929 8.16821C14.0912 7.86452 14.0912 7.13547 14.5929 6.83178C15.2168 6.45407 15.0277 5.50138 14.307 5.39162C13.7276 5.30334 13.4492 4.62989 13.7967 4.15695C14.2289 3.56879 13.6903 2.76112 12.9826 2.93613C12.4136 3.07687 11.8991 2.5613 12.0395 1.99115C12.2141 1.28199 11.4081 0.742345 10.8211 1.17541C10.3492 1.52356 9.67695 1.2446 9.58896 0.664029C9.47945 -0.0580599 8.5287 -0.247606 8.15171 0.377594C7.84863 0.880237 7.12106 0.880237 6.81798 0.377594C6.44103 -0.247596 5.49027 -0.0580833 5.38073 0.664029C5.29263 1.24462 4.62054 1.5236 4.14855 1.17541C3.56158 0.742345 2.75554 1.28201 2.9302 1.99115C3.07065 2.56126 2.55612 3.07686 1.98713 2.93613C1.2794 2.76113 0.740845 3.56879 1.17304 4.15695C1.52049 4.62989 1.24209 5.30346 0.662688 5.39162C-0.0579425 5.50136 -0.247105 6.45403 0.376831 6.83178C0.878459 7.13548 0.878459 7.86453 0.376831 8.16821Z" />
                       </svg>
-                      Enterprise Software
+                      Enterprise-level Professionals
                     </li>
                     <li>
                       <svg
@@ -100,7 +102,7 @@ const ServiceDetailsPage = () => {
                       >
                         <path d="M0.376831 8.16821C-0.247095 8.54593 -0.0579659 9.49862 0.662688 9.60837C1.24211 9.69666 1.52052 10.3701 1.17304 10.8431C0.740845 11.4312 1.27942 12.2389 1.98713 12.0639C2.55609 11.9231 3.07065 12.4387 2.9302 13.0088C2.75556 13.718 3.56158 14.2577 4.14855 13.8246C4.62054 13.4764 5.29275 13.7554 5.38073 14.336C5.49024 15.0581 6.44099 15.2476 6.81798 14.6224C7.12107 14.1198 7.84864 14.1198 8.15171 14.6224C8.52867 15.2476 9.47943 15.0581 9.58896 14.336C9.67707 13.7554 10.3492 13.4764 10.8211 13.8246C11.4081 14.2577 12.2142 13.718 12.0395 13.0088C11.899 12.4387 12.4136 11.9231 12.9826 12.0639C13.6903 12.2389 14.2289 11.4312 13.7967 10.8431C13.4492 10.3701 13.7276 9.69653 14.307 9.60837C15.0276 9.49864 15.2168 8.54597 14.5929 8.16821C14.0912 7.86452 14.0912 7.13547 14.5929 6.83178C15.2168 6.45407 15.0277 5.50138 14.307 5.39162C13.7276 5.30334 13.4492 4.62989 13.7967 4.15695C14.2289 3.56879 13.6903 2.76112 12.9826 2.93613C12.4136 3.07687 11.8991 2.5613 12.0395 1.99115C12.2141 1.28199 11.4081 0.742345 10.8211 1.17541C10.3492 1.52356 9.67695 1.2446 9.58896 0.664029C9.47945 -0.0580599 8.5287 -0.247606 8.15171 0.377594C7.84863 0.880237 7.12106 0.880237 6.81798 0.377594C6.44103 -0.247596 5.49027 -0.0580833 5.38073 0.664029C5.29263 1.24462 4.62054 1.5236 4.14855 1.17541C3.56158 0.742345 2.75554 1.28201 2.9302 1.99115C3.07065 2.56126 2.55612 3.07686 1.98713 2.93613C1.2794 2.76113 0.740845 3.56879 1.17304 4.15695C1.52049 4.62989 1.24209 5.30346 0.662688 5.39162C-0.0579425 5.50136 -0.247105 6.45403 0.376831 6.83178C0.878459 7.13548 0.878459 7.86453 0.376831 8.16821Z" />
                       </svg>
-                      Maintenance and Support
+                      Ongoing Talent Support
                     </li>
                   </ul>
                 </div>
@@ -146,7 +148,8 @@ const ServiceDetailsPage = () => {
                           aria-expanded="true"
                           aria-controls="faqcollapseOne"
                         >
-                          01. What is Task Management and how does it work?
+                          01. What is Tech Talent Recruitment and how does it
+                          work?
                         </button>
                       </h2>
                       <div
@@ -156,10 +159,9 @@ const ServiceDetailsPage = () => {
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inci only Integer purus onthis felis non
-                          aliquam.Mauris nec just vitae ann auctor tol euismod
-                          sit amet non ipsul growing this
+                          We connect you with the best professionals for your
+                          business needs, ensuring a seamless hiring process to
+                          scale your team efficiently and effectively.
                         </div>
                       </div>
                     </div>
@@ -173,7 +175,7 @@ const ServiceDetailsPage = () => {
                           aria-expanded="false"
                           aria-controls="faqcollapseTwo"
                         >
-                          02. Is {process.env.NEXT_PUBLIC_COMPANY_NAME} suitable for my business?
+                          02. Is this suitable for my business?
                         </button>
                       </h2>
                       <div
@@ -183,12 +185,9 @@ const ServiceDetailsPage = () => {
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos only Integer purus onthis
-                          placerat felis non aliquam.Mauris nec justo vitae ante
-                          auctor tol euismod sit amet non ipsul growing this
-                          Praesent commodo at massa eget suscipit. Utani vitae
-                          enim velit.
+                          Whether you’re a startup or a large enterprise, we
+                          provide customized recruitment strategies to match
+                          your business size and tech requirements.
                         </div>
                       </div>
                     </div>
@@ -202,7 +201,8 @@ const ServiceDetailsPage = () => {
                           aria-expanded="false"
                           aria-controls="faqcollapseThree"
                         >
-                          03. The system requirements using Task Management?
+                          03. What are the requirements for tech talent
+                          recruitment?
                         </button>
                       </h2>
                       <div
@@ -212,12 +212,9 @@ const ServiceDetailsPage = () => {
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos only Integer purus onthis
-                          placerat felis non aliquam.Mauris nec justo vitae ante
-                          auctor tol euismod sit amet non ipsul growing this
-                          Praesent commodo at massa eget suscipit. Utani vitae
-                          enim velit.
+                          We assess your specific needs, technical requirements,
+                          and company culture to source and match the ideal
+                          candidates.
                         </div>
                       </div>
                     </div>
@@ -231,7 +228,7 @@ const ServiceDetailsPage = () => {
                           aria-expanded="false"
                           aria-controls="faqcollapseFour"
                         >
-                          04. How can I upgrade my subscription?
+                          04. How can I upgrade my recruitment process?
                         </button>
                       </h2>
                       <div
@@ -241,12 +238,9 @@ const ServiceDetailsPage = () => {
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos only Integer purus onthis
-                          placerat felis non aliquam.Mauris nec justo vitae ante
-                          auctor tol euismod sit amet non ipsul growing this
-                          Praesent commodo at massa eget suscipit. Utani vitae
-                          enim velit.
+                          We offer services to help optimize your recruitment
+                          strategy, from streamlining candidate sourcing to
+                          enhancing your hiring experience.
                         </div>
                       </div>
                     </div>
@@ -260,7 +254,7 @@ const ServiceDetailsPage = () => {
                           aria-expanded="true"
                           aria-controls="faqcollapseFive"
                         >
-                          05. How can I upgrade my subscription?
+                          05. How do I stay updated on new talent availability?
                         </button>
                       </h2>
                       <div
@@ -270,10 +264,9 @@ const ServiceDetailsPage = () => {
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inci only Integer purus onthis felis non
-                          aliquam.Mauris nec just vitae ann auctor tol euismod
-                          sit amet non ipsul growing this
+                          We provide ongoing support, keeping you informed about
+                          the latest talent in the market and helping you build
+                          a pipeline for future growth.
                         </div>
                       </div>
                     </div>
@@ -284,8 +277,6 @@ const ServiceDetailsPage = () => {
           </div>
         </div>
       </div>
-
-      <Home5Workprocess />
 
       <div className="service-details-feature-section mb-120">
         <div className="container">
@@ -305,7 +296,7 @@ const ServiceDetailsPage = () => {
                   >
                     <path d="M3.7081 12.9544C3.41861 13.1128 3.09011 12.8352 3.14861 12.4808L3.7711 8.69694L1.12886 6.01223C0.882112 5.76104 1.01036 5.30186 1.34111 5.25226L5.0146 4.69548L6.6526 1.23399C6.80035 0.922003 7.2001 0.922003 7.34785 1.23399L8.98584 4.69548L12.6593 5.25226C12.9901 5.30186 13.1183 5.76104 12.8708 6.01223L10.2293 8.69694L10.8518 12.4808C10.9103 12.8352 10.5818 13.1128 10.2923 12.9544L6.9991 11.1497L3.7081 12.9544Z" />
                   </svg>
-                  Service Features
+                  Tech Talent Recruitment
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width={14}
@@ -316,12 +307,14 @@ const ServiceDetailsPage = () => {
                   </svg>
                 </span>
                 <h2>
-                  Edge tools Drive That <span> performance.</span>
+                  Talent Drives Your <span> Success.</span>
                 </h2>
                 <p>
-                  Feel free adapt this based on the specific managed services,
-                  features, and unique selling points your IT service company
-                  provides.
+                  Unlock your company's potential by hiring the best in tech. We
+                  connect you with skilled professionals who not only fit your
+                  technical needs but also align with your company culture. From
+                  developers to data scientists, we provide access to top-tier
+                  talent to fuel innovation and drive performance.
                 </p>
               </div>
             </div>
@@ -347,11 +340,10 @@ const ServiceDetailsPage = () => {
                     </svg>
                   </div>
                   <div className="content">
-                    <h5>Technical Implementation</h5>
+                    <h5>Tailored Talent Search</h5>
                     <p>
-                      Seamless integration of cutting-edge solutions. Our
-                      technical implementation ensures robust systems, and
-                      optimal performance in every detail.
+                      We understand your specific needs, ensuring the right
+                      talent is sourced for your business.
                     </p>
                   </div>
                 </li>
@@ -373,11 +365,10 @@ const ServiceDetailsPage = () => {
                     </svg>
                   </div>
                   <div className="content">
-                    <h5>IT Helpdesk Support</h5>
+                    <h5>Comprehensive Screening</h5>
                     <p>
-                      Responsive IT helpdesk support ensuring seamless
-                      operations, resolving issues promptly, and maximizing user
-                      productivity with expertise.
+                      Rigorous assessments to ensure candidates meet your
+                      technical and cultural standards.
                     </p>
                   </div>
                 </li>
@@ -397,11 +388,10 @@ const ServiceDetailsPage = () => {
                     </svg>
                   </div>
                   <div className="content">
-                    <h5>Managed IT Services</h5>
+                    <h5>Long-Term Success</h5>
                     <p>
-                      Efficient, proactive, and secure IT solutions tailored to
-                      optimize your business operations with our managed IT
-                      services.
+                      Focus on finding candidates who will grow with your
+                      company and contribute to your long-term vision.
                     </p>
                   </div>
                 </li>
@@ -431,197 +421,14 @@ const ServiceDetailsPage = () => {
                     </svg>
                   </div>
                   <div className="content">
-                    <h5>IT Consulting</h5>
+                    <h5>Diverse Expertise</h5>
                     <p>
-                      Strategic IT Consulting tailored solutions to optimize
-                      performance, enhance security, and drive innovation for
-                      business success.
-                    </p>
-                  </div>
-                </li>
-                <li
-                  className="single-feature wow animate fadeInDown"
-                  data-wow-delay="400ms"
-                  data-wow-duration="1500ms"
-                >
-                  <div className="icon">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width={32}
-                      height={32}
-                      viewBox="0 0 32 32"
-                    >
-                      <path d="M29.6145 21.5C29.5341 21.5 29.4548 21.4805 29.3834 21.4433C29.3121 21.406 29.2508 21.3521 29.2047 21.2861C29.1587 21.22 29.1293 21.1439 29.119 21.0641C29.1087 20.9842 29.1178 20.9031 29.1455 20.8275C29.9132 18.7322 30.1688 16.4836 29.8912 14.2694C29.6135 12.0552 28.8105 9.93944 27.5492 8.09853C26.2879 6.25761 24.6048 4.74488 22.6402 3.68645C20.6756 2.62802 18.4864 2.05455 16.2552 2.01386C14.024 1.97317 11.8154 2.46644 9.81357 3.45254C7.81169 4.43863 6.07455 5.88899 4.74695 7.68269C3.41935 9.4764 2.53977 11.5615 2.18154 13.7641C1.8233 15.9667 1.99679 18.2231 2.68754 20.345C2.71077 20.4081 2.72105 20.4753 2.71774 20.5424C2.71443 20.6096 2.69761 20.6754 2.66829 20.7359C2.63897 20.7964 2.59775 20.8504 2.54709 20.8946C2.49643 20.9388 2.43737 20.9723 2.37345 20.9932C2.30953 21.014 2.24206 21.0218 2.17508 21.016C2.1081 21.0101 2.04297 20.9909 1.98361 20.9593C1.92424 20.9277 1.87185 20.8845 1.82957 20.8322C1.78729 20.78 1.75599 20.7197 1.73754 20.655C0.998075 18.3816 0.812723 15.9643 1.19693 13.6047C1.58114 11.2451 2.52378 9.01151 3.94629 7.09009C5.36879 5.16867 7.22995 3.61508 9.37464 2.55883C11.5193 1.50258 13.8854 0.974247 16.2757 1.01788C18.666 1.06151 21.0112 1.67584 23.116 2.80966C25.2207 3.94349 27.0239 5.56396 28.3753 7.53601C29.7268 9.50807 30.5873 11.7746 30.8851 14.1466C31.1829 16.5187 30.9095 18.9276 30.0875 21.1725C30.052 21.2692 29.9875 21.3525 29.9029 21.4111C29.8182 21.4698 29.7175 21.5008 29.6145 21.5Z" />
-                      <path d="M24.808 19.5C24.7861 19.5002 24.7642 19.4988 24.7425 19.496C24.611 19.4788 24.4918 19.4101 24.4109 19.305C24.3301 19.1999 24.2943 19.067 24.3115 18.9355C24.4375 17.9621 24.5005 16.9815 24.5 16C24.5 8.2805 20.687 2 16 2C11.313 2 7.5 8.2805 7.5 16C7.49982 16.8172 7.54338 17.6339 7.6305 18.4465C7.63753 18.5118 7.63162 18.5778 7.61312 18.6409C7.59462 18.7039 7.56389 18.7626 7.52269 18.8138C7.48148 18.8649 7.43061 18.9074 7.37297 18.9389C7.31533 18.9704 7.25205 18.9902 7.18675 18.9972C7.12145 19.0043 7.05541 18.9984 6.99239 18.9799C6.92937 18.9614 6.87061 18.9306 6.81947 18.8894C6.76833 18.8482 6.7258 18.7974 6.69432 18.7397C6.66284 18.6821 6.64303 18.6188 6.636 18.5535C6.54531 17.7054 6.49991 16.853 6.5 16C6.5 7.729 10.7615 1 16 1C21.2385 1 25.5 7.729 25.5 16C25.5004 17.0247 25.4346 18.0483 25.303 19.0645C25.2874 19.1848 25.2285 19.2953 25.1374 19.3754C25.0464 19.4555 24.9293 19.4998 24.808 19.5Z" />
-                      <path d="M16 18C15.8674 18 15.7402 17.9473 15.6464 17.8536C15.5527 17.7598 15.5 17.6326 15.5 17.5V1.5C15.5 1.36739 15.5527 1.24021 15.6464 1.14645C15.7402 1.05268 15.8674 1 16 1C16.1326 1 16.2598 1.05268 16.3536 1.14645C16.4473 1.24021 16.5 1.36739 16.5 1.5V17.5C16.5 17.6326 16.4473 17.7598 16.3536 17.8536C16.2598 17.9473 16.1326 18 16 18Z" />
-                      <path d="M28.5 9.5H3.5C3.36739 9.5 3.24021 9.44732 3.14645 9.35355C3.05268 9.25979 3 9.13261 3 9C3 8.86739 3.05268 8.74021 3.14645 8.64645C3.24021 8.55268 3.36739 8.5 3.5 8.5H28.5C28.6326 8.5 28.7598 8.55268 28.8536 8.64645C28.9473 8.74021 29 8.86739 29 9C29 9.13261 28.9473 9.25979 28.8536 9.35355C28.7598 9.44732 28.6326 9.5 28.5 9.5ZM15.5 25.5C14.8078 25.5 14.1311 25.2947 13.5555 24.9101C12.9799 24.5256 12.5313 23.9789 12.2664 23.3394C12.0015 22.6999 11.9322 21.9961 12.0673 21.3172C12.2023 20.6383 12.5356 20.0146 13.0251 19.5251C13.5146 19.0356 14.1383 18.7023 14.8172 18.5673C15.4961 18.4322 16.1999 18.5015 16.8394 18.7664C17.4789 19.0313 18.0256 19.4799 18.4101 20.0555C18.7947 20.6311 19 21.3078 19 22C18.9989 22.9279 18.6299 23.8176 17.9737 24.4737C17.3176 25.1299 16.4279 25.4989 15.5 25.5ZM15.5 19.5C15.0055 19.5 14.5222 19.6466 14.1111 19.9213C13.7 20.196 13.3795 20.5865 13.1903 21.0433C13.0011 21.5001 12.9516 22.0028 13.048 22.4877C13.1445 22.9727 13.3826 23.4181 13.7322 23.7678C14.0819 24.1174 14.5273 24.3555 15.0123 24.452C15.4972 24.5484 15.9999 24.4989 16.4567 24.3097C16.9135 24.1205 17.304 23.8 17.5787 23.3889C17.8534 22.9778 18 22.4945 18 22C17.9992 21.3372 17.7356 20.7018 17.2669 20.2331C16.7982 19.7644 16.1628 19.5008 15.5 19.5ZM20.5 31C20.3674 31 20.2402 30.9473 20.1464 30.8536C20.0527 30.7598 20 30.6326 20 30.5V28.5C20 27.7545 18.4545 27 15.5 27C12.5455 27 11 27.7545 11 28.5V30.5C11 30.6326 10.9473 30.7598 10.8536 30.8536C10.7598 30.9473 10.6326 31 10.5 31C10.3674 31 10.2402 30.9473 10.1464 30.8536C10.0527 30.7598 10 30.6326 10 30.5V28.5C10 26.9345 12.056 26 15.5 26C18.944 26 21 26.9345 21 28.5V30.5C21 30.6326 20.9473 30.7598 20.8536 30.8536C20.7598 30.9473 20.6326 31 20.5 31ZM24.5 26C23.9067 26 23.3266 25.8241 22.8333 25.4944C22.3399 25.1648 21.9554 24.6962 21.7284 24.1481C21.5013 23.5999 21.4419 22.9967 21.5576 22.4147C21.6734 21.8328 21.9591 21.2982 22.3787 20.8787C22.7982 20.4591 23.3328 20.1734 23.9147 20.0576C24.4967 19.9419 25.0999 20.0013 25.6481 20.2284C26.1962 20.4554 26.6648 20.8399 26.9944 21.3333C27.3241 21.8266 27.5 22.4067 27.5 23C27.4992 23.7954 27.1829 24.558 26.6204 25.1204C26.058 25.6829 25.2954 25.9992 24.5 26ZM24.5 21C24.1044 21 23.7178 21.1173 23.3889 21.3371C23.06 21.5568 22.8036 21.8692 22.6522 22.2346C22.5009 22.6001 22.4613 23.0022 22.5384 23.3902C22.6156 23.7781 22.8061 24.1345 23.0858 24.4142C23.3655 24.6939 23.7219 24.8844 24.1098 24.9616C24.4978 25.0387 24.8999 24.9991 25.2654 24.8478C25.6308 24.6964 25.9432 24.44 26.1629 24.1111C26.3827 23.7822 26.5 23.3956 26.5 23C26.5 22.4696 26.2893 21.9609 25.9142 21.5858C25.5391 21.2107 25.0304 21 24.5 21Z" />
-                      <path d="M28.5 31C28.3674 31 28.2402 30.9473 28.1464 30.8536C28.0527 30.7598 28 30.6326 28 30.5V29C28 28.513 28 27.5 24.5 27.5C21 27.5 21 28.513 21 29V30.5C21 30.6326 20.9473 30.7598 20.8536 30.8536C20.7598 30.9473 20.6326 31 20.5 31C20.3674 31 20.2402 30.9473 20.1464 30.8536C20.0527 30.7598 20 30.6326 20 30.5V29C20 26.784 22.405 26.5 24.5 26.5C26.595 26.5 29 26.784 29 29V30.5C29 30.6326 28.9473 30.7598 28.8536 30.8536C28.7598 30.9473 28.6326 31 28.5 31ZM6.5 26C5.90666 26 5.32664 25.8241 4.83329 25.4944C4.33994 25.1648 3.95542 24.6962 3.72836 24.1481C3.5013 23.5999 3.44189 22.9967 3.55764 22.4147C3.6734 21.8328 3.95912 21.2982 4.37868 20.8787C4.79824 20.4591 5.33279 20.1734 5.91473 20.0576C6.49667 19.9419 7.09987 20.0013 7.64805 20.2284C8.19623 20.4554 8.66476 20.8399 8.99441 21.3333C9.32405 21.8266 9.5 22.4067 9.5 23C9.49921 23.7954 9.18288 24.558 8.62044 25.1204C8.05801 25.6829 7.29541 25.9992 6.5 26ZM6.5 21C6.10444 21 5.71776 21.1173 5.38886 21.3371C5.05996 21.5568 4.80362 21.8692 4.65224 22.2346C4.50087 22.6001 4.46126 23.0022 4.53843 23.3902C4.6156 23.7781 4.80608 24.1345 5.08579 24.4142C5.36549 24.6939 5.72186 24.8844 6.10982 24.9616C6.49778 25.0387 6.89991 24.9991 7.26537 24.8478C7.63082 24.6964 7.94318 24.44 8.16294 24.1111C8.3827 23.7822 8.5 23.3956 8.5 23C8.5 22.4696 8.28929 21.9609 7.91421 21.5858C7.53914 21.2107 7.03043 21 6.5 21ZM10.5 31C10.3674 31 10.2402 30.9473 10.1464 30.8536C10.0527 30.7598 10 30.6326 10 30.5V29C10 28.513 10 27.5 6.5 27.5C3 27.5 3 28.513 3 29V30.5C3 30.6326 2.94732 30.7598 2.85355 30.8536C2.75979 30.9473 2.63261 31 2.5 31C2.36739 31 2.24021 30.9473 2.14645 30.8536C2.05268 30.7598 2 30.6326 2 30.5V29C2 26.784 4.405 26.5 6.5 26.5C8.595 26.5 11 26.784 11 29V30.5C11 30.6326 10.9473 30.7598 10.8536 30.8536C10.7598 30.9473 10.6326 31 10.5 31ZM30.5 16.5H1.5C1.36739 16.5 1.24021 16.4473 1.14645 16.3536C1.05268 16.2598 1 16.1326 1 16C1 15.8674 1.05268 15.7402 1.14645 15.6464C1.24021 15.5527 1.36739 15.5 1.5 15.5H30.5C30.6326 15.5 30.7598 15.5527 30.8536 15.6464C30.9473 15.7402 31 15.8674 31 16C31 16.1326 30.9473 16.2598 30.8536 16.3536C30.7598 16.4473 30.6326 16.5 30.5 16.5Z" />
-                    </svg>
-                  </div>
-                  <div className="content">
-                    <h5>Network Support</h5>
-                    <p>
-                      Reliable network support ensuring seamless connectivity
-                      and optimizing performance for uninterrupted business
-                      operations.
+                      Whether you need front-end developers, DevOps engineers,
+                      or AI specialists, we have got you covered.
                     </p>
                   </div>
                 </li>
               </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="service-details-tools-section mb-120">
-        <div className="container">
-          <div className="row mb-60">
-            <div
-              className="col-lg-12 wow animate fadeInDown"
-              data-wow-delay="200ms"
-              data-wow-duration="1500ms"
-            >
-              <div className="section-title5">
-                <span className="sub-title5 two">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width={14}
-                    height={14}
-                    viewBox="0 0 14 14"
-                  >
-                    <path d="M3.7081 12.9544C3.41861 13.1128 3.09011 12.8352 3.14861 12.4808L3.7711 8.69694L1.12886 6.01223C0.882112 5.76104 1.01036 5.30186 1.34111 5.25226L5.0146 4.69548L6.6526 1.23399C6.80035 0.922003 7.2001 0.922003 7.34785 1.23399L8.98584 4.69548L12.6593 5.25226C12.9901 5.30186 13.1183 5.76104 12.8708 6.01223L10.2293 8.69694L10.8518 12.4808C10.9103 12.8352 10.5818 13.1128 10.2923 12.9544L6.9991 11.1497L3.7081 12.9544Z" />
-                  </svg>
-                  Our Tools
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width={14}
-                    height={14}
-                    viewBox="0 0 14 14"
-                  >
-                    <path d="M3.7081 12.9544C3.41861 13.1128 3.09011 12.8352 3.14861 12.4808L3.7711 8.69694L1.12886 6.01223C0.882112 5.76104 1.01036 5.30186 1.34111 5.25226L5.0146 4.69548L6.6526 1.23399C6.80035 0.922003 7.2001 0.922003 7.34785 1.23399L8.98584 4.69548L12.6593 5.25226C12.9901 5.30186 13.1183 5.76104 12.8708 6.01223L10.2293 8.69694L10.8518 12.4808C10.9103 12.8352 10.5818 13.1128 10.2923 12.9544L6.9991 11.1497L3.7081 12.9544Z" />
-                  </svg>
-                </span>
-                <h2>
-                  Our Design Technology <span>Tools Stack.</span>
-                </h2>
-              </div>
-            </div>
-          </div>
-          <div className="row g-4">
-            <div
-              className="col-lg-3 col-md-4 col-sm-6 wow animate fadeInDown"
-              data-wow-delay="200ms"
-              data-wow-duration="1500ms"
-            >
-              <div className="tools-card">
-                <div className="tools-icon">
-                  <img src="/assets/img/innerpage/icon/figma-icon.svg" alt="" />
-                </div>
-                <div className="tools-name">
-                  <span>Figma</span>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-lg-3 col-md-4 col-sm-6 wow animate fadeInDown"
-              data-wow-delay="400ms"
-              data-wow-duration="1500ms"
-            >
-              <div className="tools-card">
-                <div className="tools-icon">
-                  <img src="/assets/img/innerpage/icon/vs-icon.svg" alt="" />
-                </div>
-                <div className="tools-name">
-                  <span>Visual Studio</span>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-lg-3 col-md-4 col-sm-6 wow animate fadeInDown"
-              data-wow-delay="600ms"
-              data-wow-duration="1500ms"
-            >
-              <div className="tools-card">
-                <div className="tools-icon">
-                  <img src="/assets/img/innerpage/icon/git-icon.svg" alt="" />
-                </div>
-                <div className="tools-name">
-                  <span>Git</span>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-lg-3 col-md-4 col-sm-6 wow animate fadeInDown"
-              data-wow-delay="800ms"
-              data-wow-duration="1500ms"
-            >
-              <div className="tools-card">
-                <div className="tools-icon">
-                  <img src="/assets/img/innerpage/icon/react-icon.svg" alt="" />
-                </div>
-                <div className="tools-name">
-                  <span>React</span>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-lg-3 col-md-4 col-sm-6 wow animate fadeInDown"
-              data-wow-delay="800ms"
-              data-wow-duration="1500ms"
-            >
-              <div className="tools-card">
-                <div className="tools-icon">
-                  <img src="/assets/img/innerpage/icon/php-icon.svg" alt="" />
-                </div>
-                <div className="tools-name">
-                  <span>Php</span>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-lg-3 col-md-4 col-sm-6 wow animate fadeInDown"
-              data-wow-delay="600ms"
-              data-wow-duration="1500ms"
-            >
-              <div className="tools-card">
-                <div className="tools-icon">
-                  <img src="/assets/img/innerpage/icon/mysql-icon.svg" alt="" />
-                </div>
-                <div className="tools-name">
-                  <span>MySQL</span>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-lg-3 col-md-4 col-sm-6 wow animate fadeInDown"
-              data-wow-delay="400ms"
-              data-wow-duration="1500ms"
-            >
-              <div className="tools-card">
-                <div className="tools-icon">
-                  <img
-                    src="/assets/img/innerpage/icon/gitlab-icon.svg"
-                    alt=""
-                  />
-                </div>
-                <div className="tools-name">
-                  <span>Gitlab</span>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-lg-3 col-md-4 col-sm-6 wow animate fadeInDown"
-              data-wow-delay="200ms"
-              data-wow-duration="1500ms"
-            >
-              <div className="tools-card">
-                <div className="tools-icon">
-                  <img src="/assets/img/innerpage/icon/aws-icon.svg" alt="" />
-                </div>
-                <div className="tools-name">
-                  <span>AWS</span>
-                </div>
-              </div>
             </div>
           </div>
         </div>
