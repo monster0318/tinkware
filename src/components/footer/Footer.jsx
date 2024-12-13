@@ -17,6 +17,7 @@ const Footer = () => {
                     <ul className="widget-list">
                       <li>
                         <Link href="/service/service-details">
+<<<<<<< HEAD
                           Web Development
                         </Link>
                       </li>
@@ -28,22 +29,30 @@ const Footer = () => {
                       <li>
                         <Link href="/service/service-details">
                           Blockchain Development
+=======
+                          Talent Recruitment
+>>>>>>> b9fc3e34b66ac8688df640b247571066ec30927a
                         </Link>
                       </li>
                       <li>
                         <Link href="/service/service-details">
+<<<<<<< HEAD
                           IT Consulting &amp; Advisory
                         </Link>
                       </li>
                       <li>
                         <Link href="/service/service-details">
                           Cyber Security
+=======
+                          Software Development
+>>>>>>> b9fc3e34b66ac8688df640b247571066ec30927a
                         </Link>
                       </li>
                     </ul>
                     <ul className="widget-list">
                       <li>
                         <Link href="/service/service-details">
+<<<<<<< HEAD
                           Cloud Services
                         </Link>
                       </li>
@@ -60,6 +69,9 @@ const Footer = () => {
                       <li>
                         <Link href="/service/service-details">
                           ERP Solutions
+=======
+                          Blockchain Development
+>>>>>>> b9fc3e34b66ac8688df640b247571066ec30927a
                         </Link>
                       </li>
                     </ul>

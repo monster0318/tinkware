@@ -2,9 +2,9 @@ import MainLayout from "@/components/layout/MainLayout";
 import Home5Workprocess from "@/components/workProcess/Home5Workprocess";
 
 export const metadata = {
-  title: "{process.env.NEXT_PUBLIC_COMPANY_NAME} - Software, SaaS & Digital Agency Template",
+  title: "{process.env.NEXT_PUBLIC_COMPANY_NAME} - IT Recruitment And Software Development Agency",
   icons: {
-    icon: "/assets/img/sm-logo.svg",
+    icon: "/assets/img/sm-logo.png",
   },
 };
 
