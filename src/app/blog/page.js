@@ -6,6 +6,11 @@ import Link from "next/link";
 
 const Blogpage = () => {
   useWow()
+
+  const handleClick = (e) => {
+    e.preventDefault(); // Prevents the default navigation behavior
+  };
+
   return (
     <MainLayout>
       <div
@@ -21,7 +26,7 @@ const Blogpage = () => {
             >
               <div className="blog-card style-2">
                 <div className="blog-card-img-wrap">
-                  <Link href="/blog/blog-details" className="card-img">
+                  <Link href="/blog" className="card-img" onClick={handleClick}>
                     <img src="assets/img/home3/blog-img1.jpg" alt="" />
                   </Link>
                   <Link href="/blog" className="date">
@@ -42,11 +47,11 @@ const Blogpage = () => {
                     </div>
                   </div>
                   <h4>
-                    <Link href="/blog/blog-details">
+                    <Link href="/blog" onClick={handleClick}>
                       Decoding the Cloud A Deep Dive into SaaS Trends.
                     </Link>
                   </h4>
-                  <Link href="/blog/blog-details" className="read-more-btn">
+                  <Link href="/blog" className="read-more-btn" onClick={handleClick}>
                     Read More
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -71,7 +76,7 @@ const Blogpage = () => {
             >
               <div className="blog-card style-2">
                 <div className="blog-card-img-wrap">
-                  <Link href="/blog/blog-details" className="card-img">
+                  <Link href="/blog" className="card-img" onClick={handleClick}>
                     <img src="assets/img/home3/blog-img2.jpg" alt="" />
                   </Link>
                   <Link href="/blog" className="date">
@@ -92,11 +97,11 @@ const Blogpage = () => {
                     </div>
                   </div>
                   <h4>
-                    <Link href="/blog/blog-details">
+                    <Link href="/blog" onClick={handleClick}>
                       Mastering Efiecy Tips and Tricks with our {process.env.NEXT_PUBLIC_COMPANY_NAME}.
                     </Link>
                   </h4>
-                  <Link href="/blog/blog-details" className="read-more-btn">
+                  <Link href="/blog" className="read-more-btn" onClick={handleClick}>
                     Read More
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -121,7 +126,7 @@ const Blogpage = () => {
             >
               <div className="blog-card style-2">
                 <div className="blog-card-img-wrap">
-                  <Link href="/blog/blog-details" className="card-img">
+                  <Link href="/blog" className="card-img" onClick={handleClick}>
                     <img src="assets/img/home3/blog-img3.jpg" alt="" />
                   </Link>
                   <Link href="/blog" className="date">
@@ -142,11 +147,11 @@ const Blogpage = () => {
                     </div>
                   </div>
                   <h4>
-                    <Link href="/blog/blog-details">
+                    <Link href="/blog" onClick={handleClick}>
                       From Ideas How Xtore Transforms Workflows.
                     </Link>
                   </h4>
-                  <Link href="/blog/blog-details" className="read-more-btn">
+                  <Link href="/blog" className="read-more-btn" onClick={handleClick}>
                     Read More
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -171,7 +176,7 @@ const Blogpage = () => {
             >
               <div className="blog-card style-2">
                 <div className="blog-card-img-wrap">
-                  <Link href="/blog/blog-details" className="card-img">
+                  <Link href="/blog" className="card-img" onClick={handleClick}>
                     <img src="assets/img/home1/blog-img1.jpg" alt="" />
                   </Link>
                   <Link href="/blog" className="date">
@@ -192,11 +197,11 @@ const Blogpage = () => {
                     </div>
                   </div>
                   <h4>
-                    <Link href="/blog/blog-details">
+                    <Link href="/blog" onClick={handleClick}>
                       How to Been population the Startup Company of this.
                     </Link>
                   </h4>
-                  <Link href="/blog/blog-details" className="read-more-btn">
+                  <Link href="/blog" className="read-more-btn" onClick={handleClick}>
                     Read More
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -221,7 +226,7 @@ const Blogpage = () => {
             >
               <div className="blog-card style-2">
                 <div className="blog-card-img-wrap">
-                  <Link href="/blog/blog-details" className="card-img">
+                  <Link href="/blog" className="card-img" onClick={handleClick}>
                     <img src="assets/img/home1/blog-img2.jpg" alt="" />
                   </Link>
                   <Link href="/blog" className="date">
@@ -242,11 +247,11 @@ const Blogpage = () => {
                     </div>
                   </div>
                   <h4>
-                    <Link href="/blog/blog-details">
+                    <Link href="/blog" onClick={handleClick}>
                       How to Start and Grow Your Owner Startup Company.
                     </Link>
                   </h4>
-                  <Link href="/blog/blog-details" className="read-more-btn">
+                  <Link href="/blog" className="read-more-btn" onClick={handleClick}>
                     Read More
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -271,7 +276,7 @@ const Blogpage = () => {
             >
               <div className="blog-card style-2">
                 <div className="blog-card-img-wrap">
-                  <Link href="/blog/blog-details" className="card-img">
+                  <Link href="/blog" className="card-img" onClick={handleClick}>
                     <img src="assets/img/home1/blog-img3.jpg" alt="" />
                   </Link>
                   <Link href="/blog" className="date">
@@ -292,11 +297,11 @@ const Blogpage = () => {
                     </div>
                   </div>
                   <h4>
-                    <Link href="/blog/blog-details">
+                    <Link href="/blog" onClick={handleClick}>
                       Innovation The Power of an Startup Company business.
                     </Link>
                   </h4>
-                  <Link href="/blog/blog-details" className="read-more-btn">
+                  <Link href="/blog" className="read-more-btn" onClick={handleClick}>
                     Read More
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -321,7 +326,7 @@ const Blogpage = () => {
             >
               <div className="blog-card style-2">
                 <div className="blog-card-img-wrap">
-                  <Link href="/blog/blog-details" className="card-img">
+                  <Link href="/blog" className="card-img" onClick={handleClick}>
                     <img src="assets/img/innerpage/blog-img1.jpg" alt="" />
                   </Link>
                   <Link href="/blog" className="date">
@@ -342,11 +347,11 @@ const Blogpage = () => {
                     </div>
                   </div>
                   <h4>
-                    <Link href="/blog/blog-details">
+                    <Link href="/blog" onClick={handleClick}>
                       Innovation The Power of an Startup Company business.
                     </Link>
                   </h4>
-                  <Link href="/blog/blog-details" className="read-more-btn">
+                  <Link href="/blog" className="read-more-btn" onClick={handleClick}>
                     Read More
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -371,7 +376,7 @@ const Blogpage = () => {
             >
               <div className="blog-card style-2">
                 <div className="blog-card-img-wrap">
-                  <Link href="/blog/blog-details" className="card-img">
+                  <Link href="/blog" className="card-img" onClick={handleClick}>
                     <img src="assets/img/innerpage/blog-img2.jpg" alt="" />
                   </Link>
                   <Link href="/blog" className="date">
@@ -392,11 +397,11 @@ const Blogpage = () => {
                     </div>
                   </div>
                   <h4>
-                    <Link href="/blog/blog-details">
+                    <Link href="/blog" onClick={handleClick}>
                       Looking For Inspiration &amp; Unique Traveling The World.
                     </Link>
                   </h4>
-                  <Link href="/blog/blog-details" className="read-more-btn">
+                  <Link href="/blog" className="read-more-btn" onClick={handleClick}>
                     Read More
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -421,7 +426,7 @@ const Blogpage = () => {
             >
               <div className="blog-card style-2">
                 <div className="blog-card-img-wrap">
-                  <Link href="/blog/blog-details" className="card-img">
+                  <Link href="/blog" className="card-img" onClick={handleClick}>
                     <img src="assets/img/innerpage/blog-img3.jpg" alt="" />
                   </Link>
                   <Link href="/blog" className="date">
@@ -442,11 +447,11 @@ const Blogpage = () => {
                     </div>
                   </div>
                   <h4>
-                    <Link href="/blog/blog-details">
+                    <Link href="/blog" onClick={handleClick}>
                       The complete guide unlocking your team’s power.
                     </Link>
                   </h4>
-                  <Link href="/blog/blog-details" className="read-more-btn">
+                  <Link href="/blog" className="read-more-btn" onClick={handleClick}>
                     Read More
                     <svg
                       xmlns="http://www.w3.org/2000/svg"

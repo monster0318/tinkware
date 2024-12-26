@@ -115,7 +115,7 @@ const ServiceDetailsPage = () => {
               >
                 <div className="service-details-img">
                   <img
-                    src="/assets/img/innerpage/service-details-feature-img.jpg"
+                    src="/assets/img/service/blockchain/01.jpg"
                     alt=""
                   />
                 </div>
@@ -131,7 +131,7 @@ const ServiceDetailsPage = () => {
               <div className="col-lg-6">
                 <div className="service-details-faq-img">
                   <img
-                    src="/assets/img/innerpage/service-details-faq-img.jpg"
+                    src="/assets/img/service/blockchain/02.jpg"
                     alt=""
                   />
                 </div>
@@ -261,7 +261,7 @@ const ServiceDetailsPage = () => {
             >
               <div className="tools-card">
                 <div className="tools-icon">
-                  <img src="/assets/img/innerpage/icon/figma-icon.svg" alt="" />
+                  <img src="/assets/img/innerpage/icon/ethereum-icon.svg" alt="" />
                 </div>
                 <div className="tools-name">
                   <span>Ethereum</span>
@@ -275,7 +275,7 @@ const ServiceDetailsPage = () => {
             >
               <div className="tools-card">
                 <div className="tools-icon">
-                  <img src="/assets/img/innerpage/icon/vs-icon.svg" alt="" />
+                  <img src="/assets/img/innerpage/icon/solana-icon.svg" alt="" />
                 </div>
                 <div className="tools-name">
                   <span>Solana</span>
@@ -289,7 +289,7 @@ const ServiceDetailsPage = () => {
             >
               <div className="tools-card">
                 <div className="tools-icon">
-                  <img src="/assets/img/innerpage/icon/git-icon.svg" alt="" />
+                  <img src="/assets/img/innerpage/icon/hyperledger-icon.svg" alt="" />
                 </div>
                 <div className="tools-name">
                   <span>Hyperledger</span>
@@ -303,7 +303,7 @@ const ServiceDetailsPage = () => {
             >
               <div className="tools-card">
                 <div className="tools-icon">
-                  <img src="/assets/img/innerpage/icon/react-icon.svg" alt="" />
+                  <img src="/assets/img/innerpage/icon/truffle-icon.svg" alt="" />
                 </div>
                 <div className="tools-name">
                   <span>Truffle Suite</span>
@@ -317,7 +317,7 @@ const ServiceDetailsPage = () => {
             >
               <div className="tools-card">
                 <div className="tools-icon">
-                  <img src="/assets/img/innerpage/icon/php-icon.svg" alt="" />
+                  <img src="/assets/img/innerpage/icon/ganache-icon.svg" alt="" />
                 </div>
                 <div className="tools-name">
                   <span>Ganache</span>
@@ -331,7 +331,7 @@ const ServiceDetailsPage = () => {
             >
               <div className="tools-card">
                 <div className="tools-icon">
-                  <img src="/assets/img/innerpage/icon/mysql-icon.svg" alt="" />
+                  <img src="/assets/img/innerpage/icon/ipfs-icon.svg" alt="" />
                 </div>
                 <div className="tools-name">
                   <span>IPFS</span>
@@ -346,7 +346,7 @@ const ServiceDetailsPage = () => {
               <div className="tools-card">
                 <div className="tools-icon">
                   <img
-                    src="/assets/img/innerpage/icon/gitlab-icon.svg"
+                    src="/assets/img/innerpage/icon/node-icon.svg"
                     alt=""
                   />
                 </div>

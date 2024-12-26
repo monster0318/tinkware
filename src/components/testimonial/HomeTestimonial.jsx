@@ -196,18 +196,18 @@ const Home1Testimonial = () => {
                           <div className="author-area">
                             <div className="author-img">
                               <img
-                                src="assets/img/testimonial/testi-author-01.jpg"
+                                src="assets/img/testimonial/t-1.jpg"
                                 alt=""
                               />
                             </div>
                             <div className="content">
-                              <h6>Hannah Schaefer</h6>
-                              <span>Marketing Director At Hims & Hers</span>
+                              <h6>Rick Schultz</h6>
+                              <span>Marketing Director At Databricks</span>
                             </div>
                           </div>
                           <div className="logo">
                             <img
-                              src="assets/img/home1/icon/testimonial-card-logo3.svg"
+                              src="assets/img/home1/icon/testimonial-card-logo1.svg"
                               alt=""
                             />
                           </div>
@@ -224,13 +224,13 @@ const Home1Testimonial = () => {
                           <div className="author-area">
                             <div className="author-img">
                               <img
-                                src="assets/img/home2/testi-author-01.png"
+                                src="assets/img/testimonial/t-2.jpg"
                                 alt=""
                               />
                             </div>
                             <div className="content">
-                              <h6>John Richardson</h6>
-                              <span>CEO At TechWorld.Inc</span>
+                              <h6>Aidan Gomez</h6>
+                              <span>CEO At Cohere</span>
                             </div>
                           </div>
                           <div className="logo">
@@ -252,13 +252,13 @@ const Home1Testimonial = () => {
                           <div className="author-area">
                             <div className="author-img">
                               <img
-                                src="assets/img/home2/testi-author-02.png"
+                                src="assets/img/testimonial/t-3.jpg"
                                 alt=""
                               />
                             </div>
                             <div className="content">
-                              <h6>Sarah Martinez</h6>
-                              <span>Marketing Manager At CloudConnect</span>
+                              <h6>Sachin Rajendra</h6>
+                              <span>COO At FlyFin</span>
                             </div>
                           </div>
                           <div className="logo">
@@ -280,13 +280,13 @@ const Home1Testimonial = () => {
                           <div className="author-area">
                             <div className="author-img">
                               <img
-                                src="assets/img/home2/testi-author-03.png"
+                                src="assets/img/testimonial/t-4.jpg"
                                 alt=""
                               />
                             </div>
                             <div className="content">
-                              <h6>Michael Peterson</h6>
-                              <span>CIO At eCommerce Inc.</span>
+                              <h6>Wade Green</h6>
+                              <span>Engineering Manager At Overjet</span>
                             </div>
                           </div>
                           <div className="logo">

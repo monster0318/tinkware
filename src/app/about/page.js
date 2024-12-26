@@ -306,19 +306,6 @@ const Aboutpage = () => {
                   Our Partnerships <span>Assurance.</span>
                 </h2>
               </div>
-              <div className="total-partner">
-                <a href="about.html">
-                  Almost 20+ Partner we have
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width={10}
-                    height={10}
-                    viewBox="0 0 10 10"
-                  >
-                    <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                  </svg>
-                </a>
-              </div>
             </div>
           </div>
           <div className="row g-4">

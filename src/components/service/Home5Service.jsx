@@ -87,8 +87,8 @@ const Home5Service = () => {
                         <span>Advisory</span>
                       </div>
                       <p>
-                        Health and care consulting refers to the practice of
-                        providing expert.
+                        IT Consulting refers to providing expert guidance on IT
+                        strategies and solutions.
                       </p>
                       <ul>
                         <li>
@@ -154,20 +154,23 @@ const Home5Service = () => {
                         <span>IT Service</span>
                       </div>
                       <p>
-                      Blockchain technology is revolutionizing industries with secure and decentralized solutions.
+                        Blockchain technology is revolutionizing industries with
+                        secure and decentralized solutions.
                       </p>
                       <ul>
                         <li>
                           <i className="bi bi-plus-lg" /> Smart Contract
                         </li>
                         <li>
-                          <i className="bi bi-plus-lg" /> Private & Public Blockchain
+                          <i className="bi bi-plus-lg" /> Private & Public
+                          Blockchain
                         </li>
                         <li>
                           <i className="bi bi-plus-lg" /> Tokenization Services
                         </li>
                         <li>
-                          <i className="bi bi-plus-lg" /> Secure Data Transactions
+                          <i className="bi bi-plus-lg" /> Secure Data
+                          Transactions
                         </li>
                       </ul>
                       <Link
@@ -216,21 +219,21 @@ const Home5Service = () => {
                         <span>IT Service</span>
                       </div>
                       <p>
-                        Health and care consulting refers to the practice of
-                        providing expert.
+                        Cloud Services refers to enabling scalable and efficient
+                        cloud-based operations.
                       </p>
                       <ul>
                         <li>
-                          <i className="bi bi-plus-lg" /> Network Monitoring
+                          <i className="bi bi-plus-lg" /> Scalable Storage
                         </li>
                         <li>
-                          <i className="bi bi-plus-lg" /> Flexible Service
+                          <i className="bi bi-plus-lg" /> Cloud Migration
                         </li>
                         <li>
-                          <i className="bi bi-plus-lg" /> Server Performance
+                          <i className="bi bi-plus-lg" /> Cost Efficiency
                         </li>
                         <li>
-                          <i className="bi bi-plus-lg" /> Data Encryption
+                          <i className="bi bi-plus-lg" /> Data Recovery
                         </li>
                       </ul>
                       <Link
@@ -284,21 +287,21 @@ const Home5Service = () => {
                         <span>IT Service</span>
                       </div>
                       <p>
-                        Health and care consulting refers to the practice of
-                        providing expert.
+                        Software Development refers to creating tailored
+                        applications for unique needs.
                       </p>
                       <ul>
                         <li>
-                          <i className="bi bi-plus-lg" /> Network Monitoring
+                          <i className="bi bi-plus-lg" /> Custom Design
                         </li>
                         <li>
-                          <i className="bi bi-plus-lg" /> Flexible Service
+                          <i className="bi bi-plus-lg" /> Agile Practices
                         </li>
                         <li>
-                          <i className="bi bi-plus-lg" /> Server Performance
+                          <i className="bi bi-plus-lg" /> Cross-Compatibility
                         </li>
                         <li>
-                          <i className="bi bi-plus-lg" /> Data Encryption
+                          <i className="bi bi-plus-lg" /> Code Auditing
                         </li>
                       </ul>
                       <Link
@@ -344,21 +347,21 @@ const Home5Service = () => {
                         <span>IT Service</span>
                       </div>
                       <p>
-                        Health and care consulting refers to the practice of
-                        providing expert.
+                        Managed Services refers to delivering reliable support
+                        for seamless IT management.
                       </p>
                       <ul>
                         <li>
-                          <i className="bi bi-plus-lg" /> Network Monitoring
+                          <i className="bi bi-plus-lg" /> IT Support
                         </li>
                         <li>
-                          <i className="bi bi-plus-lg" /> Flexible Service
+                          <i className="bi bi-plus-lg" /> SLA Solutions
                         </li>
                         <li>
-                          <i className="bi bi-plus-lg" /> Server Performance
+                          <i className="bi bi-plus-lg" /> Remote Management
                         </li>
                         <li>
-                          <i className="bi bi-plus-lg" /> Data Encryption
+                          <i className="bi bi-plus-lg" /> Security Updates
                         </li>
                       </ul>
                       <Link
@@ -405,21 +408,22 @@ const Home5Service = () => {
                         <span>IT Service</span>
                       </div>
                       <p>
-                        Health and care consulting refers to the practice of
-                        providing expert.
+                        Web Development refers to designing modern, responsive,
+                        and optimized websites.
                       </p>
                       <ul>
                         <li>
-                          <i className="bi bi-plus-lg" /> Network Monitoring
+                          <i className="bi bi-plus-lg" /> Responsive Design
                         </li>
                         <li>
-                          <i className="bi bi-plus-lg" /> Flexible Service
+                          <i className="bi bi-plus-lg" /> SEO Integration
                         </li>
                         <li>
-                          <i className="bi bi-plus-lg" /> Server Performance
+                          <i className="bi bi-plus-lg" /> Content Management
                         </li>
                         <li>
-                          <i className="bi bi-plus-lg" /> Data Encryption
+                          <i className="bi bi-plus-lg" /> Progressive
+                          Applications
                         </li>
                       </ul>
                       <Link
