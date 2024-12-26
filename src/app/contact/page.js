@@ -54,9 +54,9 @@ const ContactPage = () => {
             >
               <div className="contact-area">
                 <div className="address">
-                  <h4 className="title">United Kingdom</h4>
-                  <span>London</span>
-                  <p>28200 Old 41 Rd #208 Bonita Springs, FL 34135</p>
+                  <h4 className="title">United State</h4>
+                  <span>Chicago, IL</span>
+                  {/* <p>28200 Old 41 Rd #208 Bonita Springs, FL 34135</p> */}
                 </div>
                 <div className="working-hour">
                   <div className="icon">
@@ -87,12 +87,13 @@ const ContactPage = () => {
               data-wow-duration="1500ms"
             >
               <div className="company-map">
-                <iframe
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d227662.4289625185!2d-87.8967705276547!3d41.83387098160742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2c3cd0f4cbed%3A0xafe0a6ad09c0c000!2sChicago%2C%20IL!5e1!3m2!1sen!2sus!4v1734127234553!5m2!1sen!2sus" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                {/* <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3649.5647631857846!2d90.36311167605992!3d23.83407118555764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c14c8682a473%3A0xa6c74743d52adb88!2sEgens%20Lab!5e0!3m2!1sen!2sbd!4v1700138349574!5m2!1sen!2sbd"
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                />
+                /> */}
               </div>
             </div>
           </div>

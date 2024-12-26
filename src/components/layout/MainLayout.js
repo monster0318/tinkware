@@ -6,6 +6,14 @@ import Breadcrumb from "./Breadcrumb";
 import Footer from "../footer/Footer";
 import Home1Contact from "../contact/HomeContact";
 
+export const metadata = {
+  title:
+    "{process.env.NEXT_PUBLIC_COMPANY_NAME} - IT Recruitment And Software Development Agency",
+  icons: {
+    icon: "/assets/img/sm-logo.png",
+  },
+};
+
 const MainLayout = ({ children }) => {
   const pathname = usePathname(); // Get the current pathname
 

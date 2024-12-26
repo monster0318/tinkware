@@ -213,7 +213,7 @@
         "id": "27",
         "name": "CONTACT US",
         "slug": "/contact",
-        "pageTitle": "Let’s Connecting With {process.env.NEXT_PUBLIC_COMPANY_NAME}.",
+        "pageTitle": "Let’s Connecting With InnoTink.",
         "section_down_scroll": "#shop"
     },
     {
