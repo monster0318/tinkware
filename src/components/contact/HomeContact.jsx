@@ -1,6 +1,55 @@
 import React from "react";
+import emailjs from 'emailjs-com';
+import { useState } from 'react';
+import { toast } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 
 const Home1Contact = () => {
+  const [formData, setFormData] = useState({
+    fullName: '',
+    company: '',
+    phone: '',
+    email: '',
+    subject: '',
+    message: '',
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
+  const handleSubmit = (e) => {
+
+    console.log("send")
+    e.preventDefault();
+
+    emailjs.send(
+      process.env.EMAILJS_SERVICE_ID,
+      process.env.EMAILJS_TEMPLATE_ID,
+      formData,
+      process.env.EMAILJS_USER_ID
+    )
+      .then((response) => {
+        alert("Success!")
+        console.log('SUCCESS!', response.status, response.text);
+        // Optionally reset the form or show a success message
+        setFormData({
+          fullName: '',
+          company: '',
+          phone: '',
+          email: '',
+          subject: '',
+          message: '',
+        });
+      }, (err) => {
+        console.error('FAILED...', err);
+      });
+  };
+
   return (
     <>
       <div className="contact-section">
@@ -128,51 +177,47 @@ const Home1Contact = () => {
               <div className="contact-form-wrap">
                 <div className="contact-form-area">
                   <h3>Your Success Starts Here!</h3>
-                  <form>
+                  <form onSubmit={handleSubmit}>
                     <div className="row">
                       <div className="col-lg-6 mb-20">
                         <div className="form-inner">
                           <label>Full Name</label>
-                          <input type="text" />
+                          <input type="text" name="fullName" value={formData.fullName} onChange={handleChange} required />
                         </div>
                       </div>
                       <div className="col-lg-6 mb-20">
                         <div className="form-inner">
                           <label>Company / Organization *</label>
-                          <input type="text" />
+                          <input type="text" name="company" value={formData.company} onChange={handleChange} required />
                         </div>
                       </div>
                       <div className="col-lg-6 mb-20">
                         <div className="form-inner">
                           <label>Phone *</label>
-                          <input type="text" />
+                          <input type="text" name="phone" value={formData.phone} onChange={handleChange} required />
                         </div>
                       </div>
                       <div className="col-lg-6 mb-20">
                         <div className="form-inner">
                           <label>Company email *</label>
-                          <input type="email" />
+                          <input type="email" name="email" value={formData.email} onChange={handleChange} required />
                         </div>
                       </div>
                       <div className="col-lg-12 mb-20">
                         <div className="form-inner">
                           <label>Your Subject *</label>
-                          <input type="text" />
+                          <input type="text" name="subject" value={formData.subject} onChange={handleChange} required />
                         </div>
                       </div>
                       <div className="col-lg-12 mb-30">
                         <div className="form-inner">
                           <label>Message *</label>
-                          <textarea defaultValue={""} />
+                          <textarea name="message" value={formData.message} onChange={handleChange} required />
                         </div>
                       </div>
                       <div className="col-lg-12">
                         <div className="form-inner">
-                          <button
-                            className="primary-btn2"
-                            type="submit"
-                            data-text="Submit Now"
-                          >
+                          <button className="primary-btn2" type="submit" data-text="Submit Now">
                             <span>Submit Now</span>
                           </button>
                         </div>
