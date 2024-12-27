@@ -1,3 +1,5 @@
+"use client"
+
 import React from "react";
 import emailjs from 'emailjs-com';
 import { useState } from 'react';
@@ -28,10 +30,10 @@ const Home1Contact = () => {
     e.preventDefault();
 
     emailjs.send(
-      process.env.EMAILJS_SERVICE_ID,
-      process.env.EMAILJS_TEMPLATE_ID,
+      process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+      process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
       formData,
-      process.env.EMAILJS_USER_ID
+      process.env.NEXT_PUBLIC_EMAILJS_USER_ID
     )
       .then((response) => {
         alert("Success!")
