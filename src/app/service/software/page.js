@@ -29,12 +29,7 @@ const ServiceDetailsPage = () => {
                     Software <span>Development.</span>
                   </h2>
                   <p>
-                    Where innovation meets passion in a journey that started
-                    with a simple idea and a shared dream. Founded in recent
-                    year we embarked on a mission to bring the new innovation
-                    and introduce the technology. From humble beginnings to our
-                    current aspirations, every step has been fueled by a
-                    relentless commitment.
+                  Where innovation meets passion, our journey began with a simple idea and a shared vision. Founded recently, we are on a mission to introduce cutting-edge technology and drive innovation. From our humble beginnings to our ambitious goals, every step reflects our unwavering commitment to excellence.
                   </p>
                   <ul className="key-features">
                     <li>
@@ -147,7 +142,7 @@ const ServiceDetailsPage = () => {
                           aria-expanded="true"
                           aria-controls="faqcollapseOne"
                         >
-                          01. How does InnoTink ensure scalability in your
+                          01. How does TinkWare ensure scalability in your
                           software solutions?
                         </button>
                       </h2>
@@ -175,7 +170,7 @@ const ServiceDetailsPage = () => {
                           aria-expanded="false"
                           aria-controls="faqcollapseTwo"
                         >
-                          02. What is approach of InnoTink to managing project
+                          02. What is approach of TinkWare to managing project
                           timelines and deliverables?
                         </button>
                       </h2>
@@ -203,7 +198,7 @@ const ServiceDetailsPage = () => {
                           aria-expanded="false"
                           aria-controls="faqcollapseThree"
                         >
-                          03. How does InnoTink handle integration with existing
+                          03. How does TinkWare handle integration with existing
                           systems?
                         </button>
                       </h2>
@@ -231,7 +226,7 @@ const ServiceDetailsPage = () => {
                           aria-expanded="false"
                           aria-controls="faqcollapseFour"
                         >
-                          04. What security measures does InnoTink incorporate into
+                          04. What security measures does TinkWare incorporate into
                           software development?
                         </button>
                       </h2>
@@ -259,7 +254,7 @@ const ServiceDetailsPage = () => {
                           aria-expanded="true"
                           aria-controls="faqcollapseFive"
                         >
-                          05. How does InnoTink ensure the software meets business
+                          05. How does TinkWare ensure the software meets business
                           requirements?
                         </button>
                       </h2>

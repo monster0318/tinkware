@@ -70,9 +70,9 @@ const Home1Banner = () => {
                     </g>
                   </svg>
                 </span>
-                <h1>Shaping Tomorrow, Today </h1>
+                <h1>Innovating Today for a Brighter Tomorrow </h1>
                 <p>
-                We are a dynamic technology company dedicated to providing innovative software solutions, blockchain advancements, and expert consulting services. At InnoTink, we understand that every business is unique, so we craft custom solutions that solve your challenges and amplify your growth. Let us take your ideas to the next level and transform your digital future.
+                At TinkWare, we are a forward-thinking technology firm committed to delivering cutting-edge software solutions, pioneering blockchain innovations, and expert consulting services. We recognize that every business has its unique challenges, which is why we tailor our solutions to enhance your growth and overcome obstacles. Let us elevate your ideas and redefine your digital landscape.
                 </p>
                 <div className="banner-content-bottom">
                   <Link

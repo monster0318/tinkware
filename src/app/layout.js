@@ -43,7 +43,7 @@ export default function RootLayout({ children }) {
           type="image/x-icon"
           sizes="16x16"
         />
-        <title>InnoTink - IT Recruitment And Software Development Agency</title>
+        <title>TinkWare - IT Recruitment And Software Development Agency</title>
       </head>
       <body>
         <ScrollProgress />

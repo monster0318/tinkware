@@ -97,7 +97,7 @@ const Footer = () => {
                   </div>
                   <div className="content">
                     <p>
-                      Welcome to InnoTink, where innovation meets our passion in a
+                      Welcome to TinkWare, where innovation meets our passion in a
                       journey that started with a simple idea and a shared
                       dream.
                     </p>

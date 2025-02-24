@@ -29,13 +29,7 @@ const ServiceDetailsPage = () => {
                     Tech Talent <span>Recruitment</span>
                   </h2>
                   <p>
-                    Where innovation meets passion in the pursuit of building
-                    exceptional teams. Founded with a vision to connect
-                    businesses with top-tier tech talent, we are driven by a
-                    commitment to transforming industries with skilled
-                    professionals. From our humble beginnings to our current
-                    success, every step is fueled by the dedication to elevate
-                    your workforce.
+                  Where innovation meets passion in building exceptional teams. Our mission is to connect businesses with top-tier tech talent, transforming industries with skilled professionals. From our humble beginnings to our current success, we are dedicated to elevating your workforce and driving growth.
                   </p>
                   <ul className="key-features">
                     <li>
@@ -310,11 +304,7 @@ const ServiceDetailsPage = () => {
                   Talent Drives Your <span> Success.</span>
                 </h2>
                 <p>
-                  Unlock your company's potential by hiring the best in tech. We
-                  connect you with skilled professionals who not only fit your
-                  technical needs but also align with your company culture. From
-                  developers to data scientists, we provide access to top-tier
-                  talent to fuel innovation and drive performance.
+                Unlock your company’s potential by hiring the best in tech. We connect you with skilled professionals who meet your technical requirements and align with your company culture. From developers to data scientists, we provide access to top-tier talent that fuels innovation and drives performance.
                 </p>
               </div>
             </div>

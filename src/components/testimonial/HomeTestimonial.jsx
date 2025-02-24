@@ -190,7 +190,7 @@ const Home1Testimonial = () => {
                       <div className="testimonial-card3 style-2">
                         <span>Great Digital Marketing!</span>
                         <p>
-                          “We were struggling with growing our brand and reaching the right customers. InnoTink totally changed that. They helped us build smarter marketing strategies that actually worked. We saw a big uptick in our customer base and engagement right after teaming up with them. They really know how to make tech work for marketing. 10/10 would recommend.”
+                          “We were struggling with growing our brand and reaching the right customers. TinkWare totally changed that. They helped us build smarter marketing strategies that actually worked. We saw a big uptick in our customer base and engagement right after teaming up with them. They really know how to make tech work for marketing. 10/10 would recommend.”
                         </p>
                         <div className="author-and-logo-area">
                           <div className="author-area">
@@ -218,7 +218,7 @@ const Home1Testimonial = () => {
                       <div className="testimonial-card3 style-2">
                         <span>Great Consulting!</span>
                         <p>
-                          “I've worked with InnoTink on multiple software development projects, and they consistently deliver high-quality results that exceed our expectations. Their team of experienced professionals brings innovative ideas and cutting-edge technology to every project, making them an invaluable partner for our company.”
+                          “I've worked with TinkWare on multiple software development projects, and they consistently deliver high-quality results that exceed our expectations. Their team of experienced professionals brings innovative ideas and cutting-edge technology to every project, making them an invaluable partner for our company.”
                         </p>
                         <div className="author-and-logo-area">
                           <div className="author-area">
@@ -246,7 +246,7 @@ const Home1Testimonial = () => {
                       <div className="testimonial-card3 style-2">
                         <span>Great Digital Marketing!</span>
                         <p>
-                          “InnoTink's software development expertise has played a pivotal role in enhancing our marketing automation capabilities and enabling us to deliver personalized experiences to our customers. Their ability to quickly understand our business needs, propose effective solutions, and execute them flawlessly has made them an indispensable partner in our marketing technology strategy.”
+                          “TinkWare's software development expertise has played a pivotal role in enhancing our marketing automation capabilities and enabling us to deliver personalized experiences to our customers. Their ability to quickly understand our business needs, propose effective solutions, and execute them flawlessly has made them an indispensable partner in our marketing technology strategy.”
                         </p>
                         <div className="author-and-logo-area">
                           <div className="author-area">
@@ -274,7 +274,7 @@ const Home1Testimonial = () => {
                       <div className="testimonial-card3 style-2">
                         <span>Great Consulting!</span>
                         <p>
-                          “InnoTink has provided us with top-notch software consulting services, helping us identify areas of improvement and optimize our technology stack for maximum efficiency. Their team has excellent communication skills, a deep understanding of industry best practices, and a strong commitment to delivering results that drive real business value.”
+                          “TinkWare has provided us with top-notch software consulting services, helping us identify areas of improvement and optimize our technology stack for maximum efficiency. Their team has excellent communication skills, a deep understanding of industry best practices, and a strong commitment to delivering results that drive real business value.”
                         </p>
                         <div className="author-and-logo-area">
                           <div className="author-area">

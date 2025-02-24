@@ -29,14 +29,7 @@ const ServiceDetailsPage = () => {
                     Blockchain <span>Development.</span>
                   </h2>
                   <p>
-                    Where tech meets game-changing ideas, blockchain is all
-                    about transforming the way industries work—secure,
-                    transparent, and efficient. At InnoTink, we’re all in on
-                    building blockchain solutions that actually make a
-                    difference, turning big ideas into real-world innovation. It
-                    all started with curiosity and grew into a passion for
-                    creating decentralized systems that bring trust and
-                    efficiency to the table.
+                  Where technology meets transformative ideas, blockchain is revolutionizing industries with security, transparency, and efficiency. At TinkWare, we are dedicated to building impactful blockchain solutions that turn visionary concepts into real-world innovations. Our journey began with curiosity and has evolved into a passion for creating decentralized systems that foster trust and enhance efficiency.
                   </p>
                   <ul className="key-features">
                     <li>
@@ -149,7 +142,7 @@ const ServiceDetailsPage = () => {
                           aria-expanded="true"
                           aria-controls="faqcollapseOne"
                         >
-                          01. How does InnoTink make sure blockchain solutions are future-proof?
+                          01. How does TinkWare make sure blockchain solutions are future-proof?
                         </button>
                       </h2>
                       <div
@@ -173,7 +166,7 @@ const ServiceDetailsPage = () => {
                           aria-expanded="false"
                           aria-controls="faqcollapseTwo"
                         >
-                          02. How does InnoTink keep security airtight?
+                          02. How does TinkWare keep security airtight?
                         </button>
                       </h2>
                       <div

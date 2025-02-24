@@ -38,16 +38,10 @@ const Home1About = () => {
                     </svg>
                   </span>
                   <h2>
-                    We are a Startup agency working with young talents on
-                    delivering unique ideas and creative work.
+                  Empowering Young Talent for Unique Solutions
                   </h2>
                   <p>
-                    Where innovation meets passion in a journey that started
-                    with a simple idea and a shared dream. Founded in recent
-                    year we embarked on a mission to bring the new innovation
-                    and introduce the technology. From humble beginnings to our
-                    current aspirations, every step has been fueled by a
-                    relentless commitment
+                  As a vibrant startup agency, we collaborate with emerging talents to unveil distinctive ideas and innovative solutions. Our passionate team thrives on creativity, crafting impactful work that resonates with audiences and inspires change. Together, we transform visionary concepts into reality, empowering businesses to excel in a dynamic digital landscape.
                   </p>
                 </div>
               </div>
